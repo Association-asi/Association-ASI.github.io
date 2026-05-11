@@ -22,9 +22,20 @@ $blockquote-text-color: #1A1A1A;
   border-color: #c97315;
 }
 
-/* Bannière avec dégradé bleu ASI */
+/* En-tête avec image de fond */
 .page-header {
-  background-image: linear-gradient(120deg, #2e7fb5, #4A9FD4);
+  background-image: 
+    linear-gradient(
+      135deg,
+      rgba(46, 127, 181, 0.82) 0%,
+      rgba(74, 159, 212, 0.75) 100%
+    ),
+    url('/benevoles.jpeg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+  flex-shrink: 0;
 }
 /* Logo dans la bannière */
 .page-header {
