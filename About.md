@@ -1,39 +1,39 @@
----
+<hr>
 layout: default
 title: A propos
 permalink: /about/
----
+<hr>
 
 ## Qui sommes-nous ?
 
 L'Association de Soutien International (ASI)** est une organisation
 à but non lucratif intervenant dans les domaines de la **santé**, de l'**éducation**
 et de l'**accès aux besoins essentiels**, en Afrique de l'Ouest et en France.
----
+<hr>
 
 ## Notre mission:
 > *"Le manque de matériel ne doit jamais primer sur la vie humaine."*
-Nous soutenons ceux qui n'ont pas les moyens de développer pleinement
+<br>Nous soutenons ceux qui n'ont pas les moyens de développer pleinement
 leur potentiel, en défendant leurs droits et leur intégrité.
 
 > Endiguer la pauvreté; promotionner l'accès aux soins;
 améliorer les conditions de vie des familles; développer la protection des droits des femmes et des enfants;
 développer l'autonomisation des femmes.
----
+<hr>
 
 ## Nos zones d'intervention
 
 - 🇧🇫 **Burkina Faso** : envoi de matériel médical aux structures hospitalières
 - 🇬🇭 **Ghana** : soutien aux établissements de santé manquant d'équipements
 - 🇫🇷 **France (Paris)** : don de vêtements aux personnes en situation de précarité
----
+<hr>
 
 ## Nos valeurs
 
 - Solidarité
 - Engagement
 - Transparence
----
+<hr>
 
 ## Comment nous soutenir ?
 
