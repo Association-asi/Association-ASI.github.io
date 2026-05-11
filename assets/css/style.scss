@@ -60,7 +60,33 @@ $blockquote-text-color: #1A1A1A;
   flex-shrink: 0;
   margin-top: -5px;
 }
+/* Navigation en pied de page */
+.footer-nav {
+  margin-bottom: 15px;
+}
 
+.footer-nav a {
+  color: #E8891A;
+  font-weight: bold;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #ffffff;
+}
+
+.site-footer {
+  background-color: #2e7fb5;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+.site-footer a {
+  color: #E8891A;
+}
 .header-text {
   flex: 1;
   text-align: left;
