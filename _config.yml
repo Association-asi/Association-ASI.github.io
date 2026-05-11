@@ -4,3 +4,9 @@ lang: fr
 theme: jekyll-theme-cayman
 author:
   name: "Association ASI"
+
+# Menu de navigation
+header_pages:
+  - about.md
+  - adhesion.md
+  - contact.md
