@@ -43,9 +43,9 @@ développer l'autonomisation des femmes.
 
 <div style="text-align:center; margin-top:30px;">
   <a href="/ASSOCIATION_PLAQUETTE.pdf" 
-     download
-     style="background-color:#E8891A; color:white; padding:12px 25px; 
-            border-radius:25px; text-decoration:none; font-weight:bold;">
-    📄 Télécharger notre plaquette
-  </a>
+   target="_blank"
+   style="background-color:#E8891A; color:white; padding:12px 25px; 
+          border-radius:25px; text-decoration:none; font-weight:bold;">
+  📄 Consulter notre plaquette
+</a>
 </div>
