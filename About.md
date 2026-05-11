@@ -1,8 +1,8 @@
-<hr>
+---
 layout: default
 title: A propos
 permalink: /about/
-<hr>
+---
 
 ## Qui sommes-nous ?
 
