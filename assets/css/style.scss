@@ -43,20 +43,22 @@ $blockquote-text-color: #1A1A1A;
   margin: 0 auto 15px auto;
 }
 /* Logo en haut à gauche */
+/* Logo en haut à gauche */
 .header-inner {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   max-width: 1000px;
-  margin: 0 auto 15px auto;
+  margin: -10px auto 15px 20px;
   gap: 20px;
 }
 
 .header-logo {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   border-radius: 8px;
   object-fit: contain;
   flex-shrink: 0;
+  margin-top: -5px;
 }
 
 .header-text {
