@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Adhésion
+title: Adhesion
+permalink: /adhesion/
 ---
 
 ## Rejoindre l'ASI
