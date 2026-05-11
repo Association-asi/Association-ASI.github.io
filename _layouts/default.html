@@ -7,7 +7,8 @@
     <title>{{ page.title | default: site.title }}</title>
   </head>
 
-  <body>
+  <body class="fixed-layout">
+
     <header class="page-header" role="banner">
       <div class="header-inner">
         <img src="{{ '/ASI2.jpeg' | relative_url }}" 
@@ -20,16 +21,16 @@
       </div>
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="main-content scrollable" role="main">
       {{ content }}
     </main>
 
     <footer class="site-footer">
       <nav class="footer-nav">
         <a href="/">🏠 Accueil</a>
-        <a href="/about/">À propos</a>
-        <a href="/adhesion/">Adhésion</a>
-        <a href="/contact/">Contact</a>
+        <a href="/about">À propos</a>
+        <a href="/adhesion">Adhésion</a>
+        <a href="/contact">Contact</a>
       </nav>
       <span class="site-footer-credits">
         © {{ site.title }} — Généré par 
