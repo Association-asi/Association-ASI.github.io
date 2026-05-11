@@ -1,0 +1,28 @@
+---
+---
+
+$header-bg-color: #4A9FD4;
+$header-bg-color-secondary: #2e7fb5;
+$header-heading-color: #ffffff;
+$section-headings-color: #4A9FD4;
+$body-link-color: #E8891A;
+$blockquote-text-color: #1A1A1A;
+
+@import "{{ site.theme }}";
+
+/* Bouton principal en orange */
+.btn {
+  background-color: #E8891A;
+  border-color: #E8891A;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #c97315;
+  border-color: #c97315;
+}
+
+/* Bannière avec dégradé bleu ASI */
+.page-header {
+  background-image: linear-gradient(120deg, #2e7fb5, #4A9FD4);
+}
