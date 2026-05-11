@@ -1,0 +1,15 @@
+title: "Association de Soutien International"
+description: "Actualités et actions de l'association ASI"
+lang: fr
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+author:
+  name: "Association ASI"
+
+permalink: /:categories/:title/
