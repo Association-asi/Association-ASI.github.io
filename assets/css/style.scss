@@ -26,3 +26,19 @@ $blockquote-text-color: #1A1A1A;
 .page-header {
   background-image: linear-gradient(120deg, #2e7fb5, #4A9FD4);
 }
+/* Logo dans la bannière */
+.page-header {
+  position: relative;
+}
+
+.project-name::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('/assets/images/logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto 15px auto;
+}
