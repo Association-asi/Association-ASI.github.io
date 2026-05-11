@@ -77,11 +77,13 @@ $blockquote-text-color: #1A1A1A;
 }
 
 .site-footer {
-  background-color: #2e7fb5;
+   background-color: #2e7fb5;
   color: white;
   text-align: center;
   padding: 25px;
   margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .site-footer a {
