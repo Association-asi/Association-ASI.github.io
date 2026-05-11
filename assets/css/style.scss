@@ -93,3 +93,33 @@ $blockquote-text-color: #1A1A1A;
   flex: 1;
   text-align: left;
 }
+/* Mise en page fixe avec scroll central */
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body.fixed-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* En-tête fixe en haut */
+.page-header {
+  flex-shrink: 0;
+}
+
+/* Zone centrale scrollable */
+.main-content.scrollable {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2rem 4rem;
+  scroll-behavior: smooth;
+}
+
+/* Pied de page fixe en bas */
+.site-footer {
+  flex-shrink: 0;
+}
