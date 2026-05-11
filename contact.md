@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 ## Nous contacter
@@ -9,4 +10,4 @@ Pour toute question ou demande, écrivez-nous à :
 
 **Mail :** asid.paris@protonmail.com
 
-**Numéro immatriculation :** W751276559
+**Numero immatriculation :** W751276559
