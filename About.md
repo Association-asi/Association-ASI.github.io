@@ -42,7 +42,7 @@ développer l'autonomisation des femmes.
 - 👐 **Parrainage** : accompagner directement des familles dans leur parcours
 
 <div style="text-align:center; margin-top:30px;">
-  <a href="/ASSOCIATION_PLAQUETTE.pdf" 
+  <a href="/plaquettes.pdf" 
    target="_blank"
    style="background-color:#E8891A; color:white; padding:12px 25px; 
           border-radius:25px; text-decoration:none; font-weight:bold;">
