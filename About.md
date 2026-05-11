@@ -31,8 +31,9 @@ développer l'autonomisation des femmes.
 ## Nos valeurs
 
 - 🤝 **Solidarité** — aide concrète sans distinction d'origine ou de situation
-- 🔍 **Transparence** — chaque action et chaque don est expliqué et justifié<hr>
+- 🔍 **Transparence** — chaque action et chaque don est expliqué et justifié
 - ⚖️ **Neutralité** — aucun engagement politique, religieux ou idéologique
+<hr>
 
 ## Comment nous soutenir ?
 
