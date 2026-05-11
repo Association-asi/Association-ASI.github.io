@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div style="text-align:center; padding: 20px 0;">
-  <img src="/assets/images/ASI2.jpeg" 
+  <img src="/ASI2.jpeg" 
        alt="Logo ASI" 
        style="width:150px; border-radius:10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
 </div>
