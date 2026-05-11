@@ -162,3 +162,93 @@ body.fixed-layout {
 .site-footer {
   flex-shrink: 0;
 }
+/* ========== GRILLE D'ARTICLES ========== */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.article-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-top: 4px solid #E8891A;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.article-card-body {
+  padding: 20px;
+}
+
+.article-date {
+  color: #E8891A;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.article-title {
+  font-size: 1rem;
+  margin: 0 0 10px 0;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.article-title a {
+  color: #2e7fb5;
+  text-decoration: none;
+}
+
+.article-title a:hover { color: #E8891A; }
+
+.article-excerpt {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.article-btn {
+  display: inline-block;
+  color: #E8891A;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.article-btn:hover { color: #2e7fb5; }
+
+/* Responsive mobile */
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== SECTION INSTAGRAM ========== */
+.instagram-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.instagram-btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: opacity 0.3s;
+}
+
+.instagram-btn:hover { opacity: 0.85; color: white; }
