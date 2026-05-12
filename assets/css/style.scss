@@ -311,28 +311,48 @@ body.fixed-layout {
     padding: 1rem;
   }
 
-  /* Footer */
+  /* Footer plus grand sur mobile */
+  .footer-image-container {
+    height: auto;
+    min-height: 200px;
+  }
+
+  .footer-overlay {
+    position: relative;
+    padding: 20px 15px;
+    gap: 15px;
+    background: rgba(46, 127, 181, 0.88);
+  }
+
+  .footer-image {
+    position: absolute;
+    height: 100%;
+  }
+
   .footer-nav {
     display: flex;
     flex-direction: column;
-    gap: 8px;
     align-items: center;
+    gap: 12px;
   }
 
   .footer-nav a {
-    margin: 0;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    padding: 8px 20px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    width: 160px;
+    text-align: center;
+    display: block;
   }
 
-  .footer-image-container {
-    height: 160px;
+  .site-footer-credits {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0 10px;
   }
-
-  /* Titres */
-  h1 { font-size: 1.5rem; }
-  h2 { font-size: 1.2rem; }
-  h3 { font-size: 1rem; }
 }
+
 
 /* Petits smartphones (max 480px) */
 @media (max-width: 480px) {
@@ -354,11 +374,12 @@ body.fixed-layout {
     padding: 15px;
   }
 
-  .footer-image-container {
-    height: 140px;
+    .footer-image-container {
+    min-height: 250px;
   }
 
-  .site-footer-credits {
-    font-size: 0.75rem;
+  .footer-nav a {
+    font-size: 0.95rem;
+    width: 140px;
   }
 }
