@@ -23,12 +23,18 @@ développer l'autonomisation des femmes.
 
 ## Nos zones d'intervention
 
+## Nos zones d'intervention
+
 - 🇧🇫 **Burkina Faso** : envoi de matériel médical aux structures hospitalières.
 - 🇬🇭 **Ghana** : soutien aux établissements de santé manquant d'équipements.
-- SN **Senegal** : notre association s'engage aux côté de femmes sénégalaises pour valoriser leur savoir faire unique.
-- nous soutenons activement leurs initiatives dans l'agriculture locale dans l'artisanat local afin de favoriser leur autonomie économique et le développement de leur communauté.
-- GB **Gabon** notre associatioon a organisé l'epédition de matériel médical vers le Gabon pour paticiper au rendforcement des structures de soins locales.
-- Ainsi par ce soutien direct nous souhaitions contribuer à l'accès au traitement des personnes vulnérables.
+- 🇸🇳 **Sénégal** : notre association s'engage aux côtés de femmes sénégalaises
+  pour valoriser leur savoir-faire unique. Nous soutenons activement leurs
+  initiatives dans l'agriculture et l'artisanat locaux afin de favoriser
+  leur autonomie économique et le développement de leur communauté.
+- 🇬🇦 **Gabon** : notre association a organisé l'expédition de matériel médical
+  pour participer au renforcement des structures de soins locales. Par ce
+  soutien direct, nous contribuons à l'accès au traitement des personnes
+  vulnérables.
 - 🇫🇷 **France (Paris)** : don de vêtements aux personnes en situation de précarité.
 <hr>
 
