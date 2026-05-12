@@ -2,6 +2,36 @@
 layout: default
 ---
 
+<!-- CHIFFRES CLÉS -->
+<div style="display:flex; justify-content:center; gap:30px; 
+            flex-wrap:wrap; margin:30px 0; text-align:center;">
+
+  <div style="background:#f0f8ff; border-radius:15px; padding:20px 30px;
+              border-top:4px solid #4A9FD4; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#4A9FD4;">4</div>
+    <div style="color:#555;">🌍 Pays</div>
+  </div>
+
+  <div style="background:#fff8f0; border-radius:15px; padding:20px 30px;
+              border-top:4px solid #E8891A; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#E8891A;">3+</div>
+    <div style="color:#555;">🏥 Hôpitaux soutenus</div>
+  </div>
+
+  <div style="background:#f0fff0; border-radius:15px; padding:20px 30px;
+              border-top:4px solid #2e7fb5; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#2e7fb5;">500+</div>
+    <div style="color:#555;">👥 Bénéficiaires</div>
+  </div>
+
+  <div style="background:#fff0f8; border-radius:15px; padding:20px 30px;
+              border-top:4px solid #E8891A; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#E8891A;">2</div>
+    <div style="color:#555;">🚑 Ambulances envoyées</div>
+  </div>
+
+</div>
+
 ## 📰 Dernières actualités
 
 <div class="articles-grid">
