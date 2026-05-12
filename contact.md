@@ -6,8 +6,22 @@ permalink: /contact/
 
 ## Nous contacter
 
-Pour toute question ou demande, écrivez-nous à :
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Nom : <input type="text" name="nom" required /></label>
+  </p>
+  <p>
+    <label>Email : <input type="email" name="email" required /></label>
+  </p>
+  <p>
+    <label>Message : <textarea name="message" rows="5" required></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Envoyer</button>
+  </p>
+</form>
 
-**Mail :** asid.paris@protonmail.com
+---
 
-**Numero immatriculation :** W751276559
+**Mail :** asid.paris@protonmail.com  
+**Numéro d'immatriculation :** W751276559
