@@ -8,7 +8,7 @@ permalink: /about/
 
 L'Association de Soutien International (ASI) est une organisation
 à but non lucratif intervenant dans les domaines de la **santé**, de l'**éducation**
-et de l'**accès aux besoins essentiels**, en Afrique de l'Ouest et en France.
+et de l'**accès aux besoins essentiels**, en Afrique et en France.
 <hr>
 
 ## Notre mission:
