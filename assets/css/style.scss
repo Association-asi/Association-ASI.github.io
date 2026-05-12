@@ -252,3 +252,113 @@ body.fixed-layout {
 }
 
 .instagram-btn:hover { opacity: 0.85; color: white; }
+/* ========================================
+   RESPONSIVE MOBILE (tablettes et phones)
+   ======================================== */
+
+/* Tablettes (max 1024px) */
+@media (max-width: 1024px) {
+
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header-inner {
+    margin-left: 10px;
+  }
+
+  .main-content.scrollable {
+    padding: 1.5rem 2rem;
+  }
+}
+
+/* Smartphones (max 768px) */
+@media (max-width: 768px) {
+
+  /* En-tête */
+  .page-header {
+    padding: 1.5rem 1rem;
+  }
+
+  .header-inner {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    gap: 12px;
+  }
+
+  .header-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .project-name {
+    font-size: 1.3rem !important;
+  }
+
+  .project-tagline {
+    font-size: 0.85rem !important;
+  }
+
+  /* Grille articles : 1 colonne */
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  /* Zone centrale */
+  .main-content.scrollable {
+    padding: 1rem;
+  }
+
+  /* Footer */
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .footer-nav a {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .footer-image-container {
+    height: 160px;
+  }
+
+  /* Titres */
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+  h3 { font-size: 1rem; }
+}
+
+/* Petits smartphones (max 480px) */
+@media (max-width: 480px) {
+
+  .header-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .project-name {
+    font-size: 1.1rem !important;
+  }
+
+  .project-tagline {
+    display: none;
+  }
+
+  .article-card-body {
+    padding: 15px;
+  }
+
+  .footer-image-container {
+    height: 140px;
+  }
+
+  .site-footer-credits {
+    font-size: 0.75rem;
+  }
+}
