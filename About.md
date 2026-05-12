@@ -23,17 +23,28 @@ développer l'autonomisation des femmes.
 
 ## Nos zones d'intervention
 
-- 🇧🇫 **Burkina Faso** : envoi de matériel médical aux structures hospitalières.
-- 🇬🇭 **Ghana** : soutien aux établissements de santé manquant d'équipements.
-- 🇸🇳 **Sénégal** : notre association s'engage aux côtés de femmes sénégalaises
-  pour valoriser leur savoir-faire unique. Nous soutenons activement leurs
-  initiatives dans l'agriculture et l'artisanat locaux afin de favoriser
-  leur autonomie économique et le développement de leur communauté.
-- 🇬🇦 **Gabon** : notre association a organisé l'expédition de matériel médical
-  pour participer au renforcement des structures de soins locales. Par ce
-  soutien direct, nous contribuons à l'accès au traitement des personnes
-  vulnérables.
-- 🇫🇷 **France (Paris)** : don de vêtements aux personnes en situation de précarité.
+<ul style="list-style:none; padding:0;">
+  <li style="margin-bottom:15px;">
+    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso" style="vertical-align:middle; margin-right:8px;">
+    <strong>Burkina Faso</strong> : envoi de matériel médical aux structures hospitalières.
+  </li>
+  <li style="margin-bottom:15px;">
+    <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana" style="vertical-align:middle; margin-right:8px;">
+    <strong>Ghana</strong> : soutien aux établissements de santé manquant d'équipements.
+  </li>
+  <li style="margin-bottom:15px;">
+    <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal" style="vertical-align:middle; margin-right:8px;">
+    <strong>Sénégal</strong> : notre association s'engage aux côtés de femmes sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons leurs initiatives dans l'agriculture et l'artisanat locaux afin de favoriser leur autonomie économique.
+  </li>
+  <li style="margin-bottom:15px;">
+    <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon" style="vertical-align:middle; margin-right:8px;">
+    <strong>Gabon</strong> : expédition de matériel médical pour renforcer les structures de soins locales et contribuer à l'accès au traitement des personnes vulnérables.
+  </li>
+  <li style="margin-bottom:15px;">
+    <img src="https://flagcdn.com/24x18/fr.png" alt="France" style="vertical-align:middle; margin-right:8px;">
+    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation de précarité.
+  </li>
+</ul>
 <hr>
 
 ## Nos valeurs
