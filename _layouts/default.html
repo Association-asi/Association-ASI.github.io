@@ -79,28 +79,23 @@
     </script>
     <script>
   // Footer rabattable sur mobile/tablette
-  document.addEventListener('DOMContentLoaded', function() {
+ document.addEventListener('DOMContentLoaded', function() {
   var handle = document.getElementById('footer-handle');
   var content = document.getElementById('footer-content');
   var bar = document.querySelector('.footer-handle-bar');
   var isCollapsed = false;
 
-  if (handle && content && bar) {
+  if (handle) {
     handle.addEventListener('click', function() {
       isCollapsed = !isCollapsed;
+      console.log('Footer clicked, isCollapsed:', isCollapsed);
 
       if (isCollapsed) {
-        content.style.maxHeight = '0px';
-        content.style.opacity = '0';
-        content.style.padding = '0';
-        bar.style.background = 'rgba(255,255,255,0.95)';
-        bar.style.width = '60px';
+        content.style.cssText = 'max-height:0px; opacity:0; overflow:hidden;';
+        bar.style.cssText = 'width:60px; background:rgba(255,255,255,0.95);';
       } else {
-        content.style.maxHeight = '500px';
-        content.style.opacity = '1';
-        content.style.padding = '';
-        bar.style.background = 'rgba(255,255,255,0.6)';
-        bar.style.width = '40px';
+        content.style.cssText = 'max-height:500px; opacity:1; overflow:hidden;';
+        bar.style.cssText = 'width:40px; background:rgba(255,255,255,0.6);';
       }
     });
   }
