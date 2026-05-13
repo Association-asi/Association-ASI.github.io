@@ -50,15 +50,6 @@ html, body {
   }
 }
 
-/* ========== MISE EN PAGE GÉNÉRALE ========== */
-html, body { height: 100%; margin: 0; overflow: hidden; }
-
-body.fixed-layout {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
 /* ========== EN-TÊTE ========== */
 .page-header {
   flex-shrink: 0;
