@@ -10,6 +10,47 @@ $body-link-color: #E8891A;
 @import "{{ site.theme }}";
 
 /* ========== MISE EN PAGE GÉNÉRALE ========== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  body.fixed-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .main-content.scrollable {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem 4rem;
+    scroll-behavior: smooth;
+  }
+}
+
+@media (max-width: 768px) {
+  body.fixed-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .main-content.scrollable {
+    flex: 1;
+    overflow: visible;
+    padding: 1rem;
+  }
+
+  .site-footer {
+    margin-top: auto;
+  }
+}
+
+/* ========== MISE EN PAGE GÉNÉRALE ========== */
 html, body { height: 100%; margin: 0; overflow: hidden; }
 
 body.fixed-layout {
