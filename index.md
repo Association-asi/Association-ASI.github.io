@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- CHIFFRES CLÉS -->
+<!-- PHRASE D'ACCROCHE -->
 <div style="text-align:center; margin:30px 0; padding:25px;
             background:linear-gradient(135deg, #f0f8ff, #e8f4fc);
             border-radius:15px; border-left:5px solid #4A9FD4;">
@@ -14,6 +14,62 @@ layout: default
     Matériel médical, soutien hospitalier, autonomie des femmes —
     <strong>chaque action compte, chaque don change une vie.</strong>
   </p>
+</div>
+
+<!-- CHIFFRES CLÉS -->
+<div style="display:flex; justify-content:center; gap:20px;
+            flex-wrap:wrap; margin:30px 0; text-align:center;">
+
+  <div style="background:#f0f8ff; border-radius:15px; padding:20px 25px;
+              border-top:4px solid #4A9FD4; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#4A9FD4;">2+</div>
+    <div style="color:#555; font-size:0.9rem;">
+      <i class="fa-solid fa-earth-africa" style="color:#4A9FD4;"></i>
+      Pays d'intervention
+    </div>
+    <div style="color:#aaa; font-size:0.75rem;">3 en cours</div>
+  </div>
+
+  <div style="background:#fff8f0; border-radius:15px; padding:20px 25px;
+              border-top:4px solid #E8891A; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#E8891A;">13</div>
+    <div style="color:#555; font-size:0.9rem;">
+      <i class="fa-solid fa-hospital" style="color:#E8891A;"></i>
+      Structures de santé
+    </div>
+    <div style="color:#aaa; font-size:0.75rem;">hôpitaux, cliniques, centres</div>
+  </div>
+
+  <div style="background:#f0fff0; border-radius:15px; padding:20px 25px;
+              border-top:4px solid #2e9e4f; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#2e9e4f;">2</div>
+    <div style="color:#555; font-size:0.9rem;">
+      <i class="fa-solid fa-truck-medical" style="color:#2e9e4f;"></i>
+      Ambulances envoyées
+    </div>
+    <div style="color:#aaa; font-size:0.75rem;">6 en cours</div>
+  </div>
+
+  <div style="background:#fff0f8; border-radius:15px; padding:20px 25px;
+              border-top:4px solid #2e7fb5; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#2e7fb5;">25</div>
+    <div style="color:#555; font-size:0.9rem;">
+      <i class="fa-solid fa-people-group" style="color:#2e7fb5;"></i>
+      Bénévoles
+    </div>
+    <div style="color:#aaa; font-size:0.75rem;">5 actifs · 20 en renfort</div>
+  </div>
+
+  <div style="background:#f8f0ff; border-radius:15px; padding:20px 25px;
+              border-top:4px solid #9b59b6; min-width:130px;">
+    <div style="font-size:2rem; font-weight:bold; color:#9b59b6;">2024</div>
+    <div style="color:#555; font-size:0.9rem;">
+      <i class="fa-solid fa-calendar" style="color:#9b59b6;"></i>
+      Année de création
+    </div>
+    <div style="color:#aaa; font-size:0.75rem;">une association jeune et engagée</div>
+  </div>
+
 </div>
 
 ## <i class="fa-solid fa-bullhorn"></i> Bienvenue sur le site de l'ASI
