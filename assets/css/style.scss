@@ -181,6 +181,20 @@ body.fixed-layout {
 
 .site-footer-credits { color: rgba(255,255,255,0.85); font-size: 0.82rem; }
 .site-footer-credits a { color: #E8891A; }
+/* Liens légaux footer */
+.footer-legal {
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.footer-legal a {
+  color: rgba(255,255,255,0.65);
+  font-size: 0.78rem;
+  margin: 0 10px;
+  text-decoration: underline;
+}
+
+.footer-legal a:hover { color: #ffffff; }
 
 /* ========== RESPONSIVE TABLETTE ========== */
 @media (max-width: 1024px) {
