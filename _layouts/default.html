@@ -83,20 +83,11 @@
   var handle = document.getElementById('footer-handle');
   var content = document.getElementById('footer-content');
   var bar = document.querySelector('.footer-handle-bar');
-  var isCollapsed = false;
 
-  if (handle) {
+  if (handle && content) {
     handle.addEventListener('click', function() {
-      isCollapsed = !isCollapsed;
-      console.log('Footer clicked, isCollapsed:', isCollapsed);
-
-      if (isCollapsed) {
-        content.style.cssText = 'max-height:0px; opacity:0; overflow:hidden;';
-        bar.style.cssText = 'width:60px; background:rgba(255,255,255,0.95);';
-      } else {
-        content.style.cssText = 'max-height:500px; opacity:1; overflow:hidden;';
-        bar.style.cssText = 'width:40px; background:rgba(255,255,255,0.6);';
-      }
+      content.classList.toggle('collapsed');
+      if (bar) bar.classList.toggle('collapsed');
     });
   }
 });
