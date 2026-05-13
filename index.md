@@ -21,7 +21,7 @@ layout: default
 ## 📰 Dernières actualités
 
 <div class="articles-grid">
-{% for post in site.posts limit:6 %}
+{% for post in site.posts limit:3 %}
 <div class="article-card">
   <div class="article-card-body">
     <p class="article-date">{{ post.date | date: "%d/%m/%Y" }}</p>
@@ -29,7 +29,7 @@ layout: default
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h3>
     <p class="article-excerpt">
-      {{ post.excerpt | strip_html | truncate: 100 }}
+      {{ post.excerpt | strip_html | truncate: 120 }}
     </p>
     <a href="{{ post.url | relative_url }}" class="article-btn">
       Lire la suite →
@@ -37,6 +37,14 @@ layout: default
   </div>
 </div>
 {% endfor %}
+</div>
+
+<div style="text-align:center; margin-top:25px;">
+  <a href="/actualites"
+     style="background-color:#4A9FD4; color:white; padding:12px 30px;
+            border-radius:25px; text-decoration:none; font-weight:bold;">
+    📰 Voir toutes les actualités →
+  </a>
 </div>
 
 <hr>
