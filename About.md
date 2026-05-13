@@ -67,9 +67,9 @@ Ainsi par ce soutien direct nous souhaitions contribuer à l'accès aux traiteme
     <strong>Don financier</strong> : soutenir nos programmes de santé et d'éducation
   </li>
   <li style="margin-bottom:15px;">
-    <i class="fa-solid fa-person-raising-hand" style="color:#4A9FD4; margin-right:8px;"></i>
-    <strong>Bénévolat</strong> : apporter vos compétences pour nos actions
-  </li>
+  <i class="fa-solid fa-hands" style="color:#4A9FD4; margin-right:8px;"></i>
+  <strong>Bénévolat</strong> : apporter vos compétences pour nos actions
+</li>
   <li style="margin-bottom:15px;">
     <i class="fa-solid fa-people-carry-box" style="color:#2e7fb5; margin-right:8px;"></i>
     <strong>Parrainage</strong> : accompagner directement des familles dans leur parcours
