@@ -24,26 +24,46 @@ développer l'autonomisation des femmes.
 ## <i class="fa-solid fa-earth-africa"></i> Nos zones d'intervention
 
 <ul style="list-style:none; padding:0;">
-  <li style="margin-bottom:15px;">
-    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso" style="vertical-align:middle; margin-right:8px;">
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-kit-medical" style="color:#E8891A; margin-right:6px;"></i>
     <strong>Burkina Faso</strong> : envoi de matériel médical aux structures hospitalières.
   </li>
-  <li style="margin-bottom:15px;">
-    <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana" style="vertical-align:middle; margin-right:8px;">
+
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
     <strong>Ghana</strong> : soutien aux établissements de santé manquant d'équipements.
   </li>
-  <li style="margin-bottom:15px;">
-    <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal" style="vertical-align:middle; margin-right:8px;">
-    <strong>Sénégal</strong> : Notre association s'engage aux côtés des femmes sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons activement leurs initiatives dans l'agriculture durable et l'artisanat local afin de favoriser leur autonomie économique et le développement de leur communauté.
+
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-seedling" style="color:#2e9e4f; margin-right:6px;"></i>
+    <strong>Sénégal</strong> : notre association s'engage aux côtés des femmes
+    sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons activement
+    leurs initiatives dans l'agriculture durable et l'artisanat local afin de
+    favoriser leur autonomie économique et le développement de leur communauté.
   </li>
-  <li style="margin-bottom:15px;">
-    <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon" style="vertical-align:middle; margin-right:8px;">
-    <strong>Gabon</strong> : Notre association a organisé l'expédition de matériel médical vers le Gabon pour participer au renforcement des structures de soins locales. 
-Ainsi par ce soutien direct nous souhaitions contribuer à l'accès aux traitements des populations vulnérables.
+
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-truck-medical" style="color:#E8891A; margin-right:6px;"></i>
+    <strong>Gabon</strong> : notre association a organisé l'expédition de matériel
+    médical pour participer au renforcement des structures de soins locales.
+    Ainsi, par ce soutien direct, nous souhaitons contribuer à l'accès aux
+    traitements des populations vulnérables.
   </li>
-  <li style="margin-bottom:15px;">
-    <img src="https://flagcdn.com/24x18/fr.png" alt="France" style="vertical-align:middle; margin-right:8px;">
-    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation de précarité.
+
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/fr.png" alt="France"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
+    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation
+    de précarité.
   </li>
 </ul>
 <hr>
