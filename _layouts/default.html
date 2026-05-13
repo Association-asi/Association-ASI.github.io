@@ -77,6 +77,18 @@
         });
       }
     </script>
+    <script>
+  // Footer rabattable sur mobile/tablette
+  const handle = document.getElementById('footer-handle');
+  const content = document.getElementById('footer-content');
+  const bar = document.querySelector('.footer-handle-bar');
 
+  if (handle && content) {
+    handle.addEventListener('click', function() {
+      content.classList.toggle('collapsed');
+      bar.classList.toggle('collapsed');
+    });
+  }
+</script>
   </body>
 </html>
