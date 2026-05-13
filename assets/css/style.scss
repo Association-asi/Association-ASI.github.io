@@ -269,3 +269,20 @@ body.fixed-layout {
   .article-card-body { padding: 12px; }
   .footer-nav a { width: 140px; font-size: 0.9rem; }
 }
+/* ========== ICÔNES FONT AWESOME ========== */
+.footer-nav i,
+.footer-legal i {
+  margin-right: 5px;
+  font-size: 0.9rem;
+}
+
+.main-content h2 i {
+  color: #E8891A;
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+.main-content h3 i {
+  color: #4A9FD4;
+  margin-right: 6px;
+}
