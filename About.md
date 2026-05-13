@@ -48,17 +48,27 @@ Ainsi par ce soutien direct nous souhaitions contribuer à l'accès aux traiteme
 </ul>
 <hr>
 
-## Nos valeurs
-- 🤝 **Solidarité** — aide concrète sans distinction d'origine ou de situation
-- 🔍 **Transparence** — chaque action et chaque don est expliqué et justifié
-- ⚖️ **Neutralité** — aucun engagement politique, religieux ou idéologique
+## <i class="fa-solid fa-heart"></i> Nos valeurs
+- <i class="fa-solid fa-handshake" style="color:#E8891A;"></i>
+  **Solidarité** — aide concrète sans distinction d'origine ou de situation
+
+- <i class="fa-solid fa-magnifying-glass" style="color:#4A9FD4;"></i>
+  **Transparence** — chaque action et chaque don est expliqué et justifié
+
+- <i class="fa-solid fa-scale-balanced" style="color:#2e7fb5;"></i>
+  **Neutralité** — aucun engagement politique, religieux ou idéologique
 <hr>
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Comment nous soutenir ?
 
-- 💶 **Don financier** : soutenir nos programmes de santé et d'éducation
-- 🙋 **Bénévolat** : apporter vos compétences pour nos actions
-- 👐 **Parrainage** : accompagner directement des familles dans leur parcours
+- <i class="fa-solid fa-euro-sign" style="color:#E8891A;"></i>
+  **Don financier** : soutenir nos programmes de santé et d'éducation
+
+- <i class="fa-solid fa-person-raising-hand" style="color:#4A9FD4;"></i>
+  **Bénévolat** : apporter vos compétences pour nos actions
+
+- <i class="fa-solid fa-people-carry-box" style="color:#2e7fb5;"></i>
+  **Parrainage** : accompagner directement des familles dans leur parcours
 
 <div style="text-align:center; margin-top:30px;">
   <a href="/plaquettes.pdf" 
