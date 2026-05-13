@@ -96,11 +96,17 @@ développer l'autonomisation des femmes.
   </li>
 </ul>
 
-<div style="text-align:center; margin-top:30px;">
-  <a href="/plaquettes.pdf" 
-   target="_blank"
-   style="background-color:#E8891A; color:white; padding:12px 25px; 
-          border-radius:25px; text-decoration:none; font-weight:bold;">
-  📄 Consulter notre plaquette
-</a>
+<div style="text-align:center; margin-top:35px;">
+  <a href="/plaquettes.pdf"
+     target="_blank"
+     style="display:inline-flex; align-items:center; gap:12px;
+            background:linear-gradient(135deg, #E8891A, #c97315);
+            color:white; padding:16px 45px; border-radius:50px;
+            text-decoration:none; font-weight:bold; font-size:1.05rem;
+            box-shadow:0 6px 20px rgba(232,137,26,0.45);
+            transition:all 0.3s; letter-spacing:0.3px;">
+    <i class="fa-solid fa-file-pdf" style="font-size:1.2rem;"></i>
+    Consulter notre plaquette
+    <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.9rem;"></i>
+  </a>
 </div>
