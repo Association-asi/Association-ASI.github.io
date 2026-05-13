@@ -34,7 +34,11 @@
     </main>
 
     <!-- PIED DE PAGE -->
-    <footer class="site-footer">
+    <footer class="site-footer" id="site-footer">
+  <div class="footer-handle" id="footer-handle">
+    <span class="footer-handle-bar"></span>
+  </div>
+  <div class="footer-content" id="footer-content">
       <nav class="footer-nav">
          <a href="/"><i class="fa-solid fa-house"></i> Accueil</a>
          <a href="/actualites"><i class="fa-solid fa-newspaper"></i> Actualités</a>
@@ -58,6 +62,7 @@
         © {{ site.title }} — Généré par
         <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
       </span>
+    </div>
     </footer>
 
     <!-- Script Netlify Identity -->
