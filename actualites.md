@@ -4,8 +4,7 @@ title: Actualités
 permalink: /actualites/
 ---
 
-## 📰 Toutes nos actualités
-
+## <i class="fa-solid fa-newspaper"></i> Toutes nos actualités
 <div class="articles-grid">
 {% for post in site.posts %}
 <div class="article-card">
