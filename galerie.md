@@ -4,8 +4,7 @@ title: Galerie photos
 permalink: /galerie/
 ---
 
-## 📸 Nos actions en images
-
+## <i class="fa-solid fa-images"></i> Nos actions en images
 <p style="color:#888; font-style:italic; text-align:center;">
   Photos illustratives — Nos photos terrain arrivent bientôt
 </p>
