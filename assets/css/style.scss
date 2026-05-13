@@ -503,3 +503,49 @@ html, body {
     padding: 20px;
   }
 }
+/* ========== RÉSEAUX SOCIAUX ========== */
+.social-nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.social-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  color: white;
+}
+
+.social-btn.facebook  { background: #1877F2; }
+.social-btn.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.social-btn.twitter   { background: #000000; }
+.social-btn.youtube   { background: #FF0000; }
+.social-btn.linkedin  { background: #0A66C2; }
+.social-btn.whatsapp  { background: #25D366; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .social-btn {
+    width: 46px;
+    height: 46px;
+    font-size: 1.2rem;
+  }
+}
