@@ -8,7 +8,7 @@ permalink: /about/
 
 L'Association de Soutien International (ASI) est une organisation
 à but non lucratif intervenant dans les domaines de la **santé**, de l'**éducation**
-et de l'**accès aux besoins essentiels**, en France, en Afrique et partout où les populations auront besoin de notre soutien.
+et de l'**accès aux besoins essentiels**, en France, en Afrique et partout où les populations auront besoin de leur soutien.
 <hr>
 
 ## Notre mission:
@@ -34,11 +34,12 @@ développer l'autonomisation des femmes.
   </li>
   <li style="margin-bottom:15px;">
     <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal" style="vertical-align:middle; margin-right:8px;">
-    <strong>Sénégal</strong> : notre association s'engage aux côtés de femmes sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons leurs initiatives dans l'agriculture et l'artisanat locaux afin de favoriser leur autonomie économique.
+    <strong>Sénégal</strong> : Notre association s'engage aux côtés des femmes sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons activement leurs initiatives dans l'agriculture durable et l'artisanat local afin de favoriser leur autonomie économique et le développement de leur communauté.
   </li>
   <li style="margin-bottom:15px;">
     <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon" style="vertical-align:middle; margin-right:8px;">
-    <strong>Gabon</strong> : expédition de matériel médical pour renforcer les structures de soins locales et contribuer à l'accès au traitement des personnes vulnérables.
+    <strong>Gabon</strong> : Notre association a organisé l'expédition de matériel médical vers le Gabon pour participer au renforcement des structures de soins locales. 
+Ainsi par ce soutien direct nous souhaitions contribuer à l'accès aux traitements des populations vulnérables.
   </li>
   <li style="margin-bottom:15px;">
     <img src="https://flagcdn.com/24x18/fr.png" alt="France" style="vertical-align:middle; margin-right:8px;">
