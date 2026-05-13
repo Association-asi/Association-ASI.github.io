@@ -79,16 +79,32 @@
     </script>
     <script>
   // Footer rabattable sur mobile/tablette
-  const handle = document.getElementById('footer-handle');
-  const content = document.getElementById('footer-content');
-  const bar = document.querySelector('.footer-handle-bar');
+  document.addEventListener('DOMContentLoaded', function() {
+  var handle = document.getElementById('footer-handle');
+  var content = document.getElementById('footer-content');
+  var bar = document.querySelector('.footer-handle-bar');
+  var isCollapsed = false;
 
-  if (handle && content) {
+  if (handle && content && bar) {
     handle.addEventListener('click', function() {
-      content.classList.toggle('collapsed');
-      bar.classList.toggle('collapsed');
+      isCollapsed = !isCollapsed;
+
+      if (isCollapsed) {
+        content.style.maxHeight = '0px';
+        content.style.opacity = '0';
+        content.style.padding = '0';
+        bar.style.background = 'rgba(255,255,255,0.95)';
+        bar.style.width = '60px';
+      } else {
+        content.style.maxHeight = '500px';
+        content.style.opacity = '1';
+        content.style.padding = '';
+        bar.style.background = 'rgba(255,255,255,0.6)';
+        bar.style.width = '40px';
+      }
     });
   }
+});
 </script>
   </body>
 </html>
