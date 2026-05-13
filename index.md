@@ -97,26 +97,42 @@ layout: default
 
 <div style="text-align:center; margin-top:25px;">
   <a href="/actualites"
-     style="background-color:#4A9FD4; color:white; padding:12px 30px;
-            border-radius:25px; text-decoration:none; font-weight:bold;">
-    📰 Voir toutes les actualités →
+     style="display:inline-flex; align-items:center; gap:10px;
+            background:linear-gradient(135deg, #4A9FD4, #2e7fb5);
+            color:white; padding:14px 35px; border-radius:30px;
+            text-decoration:none; font-weight:bold; font-size:1rem;
+            box-shadow:0 4px 15px rgba(74,159,212,0.4);
+            transition:all 0.3s;">
+    <i class="fa-solid fa-newspaper"></i>
+    Voir toutes les actualités
+    <i class="fa-solid fa-arrow-right"></i>
   </a>
 </div>
 
 <hr>
 
-## 📸 Suivez-nous sur Instagram
+<div style="text-align:center; margin:30px 0;">
 
-<div class="instagram-section">
-  <p style="text-align:center; color:#888;">
+  <h2 style="color:#2e7fb5;">
+    <i class="fa-brands fa-instagram" style="color:#E1306C;"></i>
+    Suivez-nous sur Instagram
+  </h2>
+
+  <p style="color:#888; margin:10px 0 20px 0;">
     Retrouvez nos actions en images sur Instagram
   </p>
-  <div class="instagram-placeholder">
-    <!-- Widget Instagram à intégrer ici -->
-    <a href="https://www.instagram.com/VOTRE_COMPTE_ASI" 
-       target="_blank"
-       class="instagram-btn">
-      📷 Voir notre Instagram
-    </a>
-  </div>
+
+  <a href="https://www.instagram.com/VOTRE_COMPTE_ASI"
+     target="_blank"
+     style="display:inline-flex; align-items:center; gap:10px;
+            background:linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            color:white; padding:14px 35px; border-radius:30px;
+            text-decoration:none; font-weight:bold; font-size:1rem;
+            box-shadow:0 4px 15px rgba(220,39,67,0.3);
+            transition:all 0.3s;">
+    <i class="fa-brands fa-instagram"></i>
+    Voir notre Instagram
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+  </a>
+
 </div>
