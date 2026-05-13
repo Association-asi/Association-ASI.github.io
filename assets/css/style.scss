@@ -327,3 +327,42 @@ body.fixed-layout {
   color: #4A9FD4;
   margin-right: 6px;
 }
+/* ========== FOOTER RABATTABLE MOBILE ========== */
+@media (max-width: 1024px) {
+
+  .footer-handle {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .footer-handle-bar {
+    display: inline-block;
+    width: 40px;
+    height: 4px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 3px;
+  }
+
+  .footer-content {
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    max-height: 500px;
+    opacity: 1;
+    overflow: hidden;
+  }
+
+  .footer-content.collapsed {
+    max-height: 0;
+    opacity: 0;
+  }
+
+  .footer-handle-bar.collapsed {
+    background: rgba(255,255,255,0.9);
+  }
+}
+
+@media (min-width: 1025px) {
+  .footer-handle { display: none; }
+}
