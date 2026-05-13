@@ -4,18 +4,16 @@ layout: default
 
 <!-- CHIFFRES CLÉS -->
 <div style="text-align:center; margin:30px 0; padding:25px;
-            background: linear-gradient(135deg, #f0f8ff, #e8f4fd);
-            border-radius:15px; border: 2px solid #4A9FD4;">
-
-  <h3 style="color:#4A9FD4; margin-bottom:10px;">
-    🌍 Notre impact en chiffres
-  </h3>
-
-  <p style="color:#888; font-style:italic;">
-    Nos données d'impact sont en cours de compilation.<br>
-    Revenez bientôt pour découvrir l'étendue de nos actions !
+            background:linear-gradient(135deg, #f0f8ff, #e8f4fc);
+            border-radius:15px; border-left:5px solid #4A9FD4;">
+  <p style="font-size:1.2rem; color:#2e7fb5; font-weight:bold; margin:0;">
+    <i class="fa-solid fa-earth-africa" style="color:#E8891A;"></i>
+    Depuis 2024, l'ASI agit concrètement là où le besoin est le plus grand
   </p>
-
+  <p style="color:#555; margin:15px 0 0 0; font-size:1rem;">
+    Matériel médical, soutien hospitalier, autonomie des femmes —
+    <strong>chaque action compte, chaque don change une vie.</strong>
+  </p>
 </div>
 
 ## <i class="fa-solid fa-bullhorn"></i> Bienvenue sur le site de l'ASI
