@@ -18,7 +18,9 @@ layout: default
 
 </div>
 
-## 📰 Dernières actualités
+## <i class="fa-solid fa-bullhorn"></i> Bienvenue sur le site de l'ASI
+
+## <i class="fa-solid fa-newspaper"></i> Dernières actualités
 
 <div class="articles-grid">
 {% for post in site.posts limit:3 %}
