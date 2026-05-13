@@ -61,14 +61,20 @@ Ainsi par ce soutien direct nous souhaitions contribuer à l'accès aux traiteme
 
 ## <i class="fa-solid fa-hand-holding-heart"></i> Comment nous soutenir ?
 
-- <i class="fa-solid fa-euro-sign" style="color:#E8891A;"></i>
-  **Don financier** : soutenir nos programmes de santé et d'éducation
-
-- <i class="fa-solid fa-person-raising-hand" style="color:#4A9FD4;"></i>
-  **Bénévolat** : apporter vos compétences pour nos actions
-
-- <i class="fa-solid fa-people-carry-box" style="color:#2e7fb5;"></i>
-  **Parrainage** : accompagner directement des familles dans leur parcours
+<ul style="list-style:none; padding:0;">
+  <li style="margin-bottom:15px;">
+    <i class="fa-solid fa-euro-sign" style="color:#E8891A; margin-right:8px;"></i>
+    <strong>Don financier</strong> : soutenir nos programmes de santé et d'éducation
+  </li>
+  <li style="margin-bottom:15px;">
+    <i class="fa-solid fa-person-raising-hand" style="color:#4A9FD4; margin-right:8px;"></i>
+    <strong>Bénévolat</strong> : apporter vos compétences pour nos actions
+  </li>
+  <li style="margin-bottom:15px;">
+    <i class="fa-solid fa-people-carry-box" style="color:#2e7fb5; margin-right:8px;"></i>
+    <strong>Parrainage</strong> : accompagner directement des familles dans leur parcours
+  </li>
+</ul>
 
 <div style="text-align:center; margin-top:30px;">
   <a href="/plaquettes.pdf" 
