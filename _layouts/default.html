@@ -106,20 +106,75 @@
         });
       }
     </script>
-    <script>
-  // Footer rabattable sur mobile/tablette
- document.addEventListener('DOMContentLoaded', function() {
-  var handle = document.getElementById('footer-handle');
-  var content = document.getElementById('footer-content');
-  var bar = document.querySelector('.footer-handle-bar');
+<script>
+document.addEventListener('DOMContentLoaded', function() {
 
-  if (handle && content) {
-    handle.addEventListener('click', function() {
-      content.classList.toggle('collapsed');
-      if (bar) bar.classList.toggle('collapsed');
+  var mainContent = document.getElementById('content');
+  var header = document.querySelector('.page-header');
+  var footerContent = document.getElementById('footer-content');
+  var footerBar = document.querySelector('.footer-handle-bar');
+  var isCollapsed = false;
+
+  function collapse() {
+    if (!isCollapsed) {
+      isCollapsed = true;
+      // Monter le header
+      if (header) header.classList.add('header-collapsed');
+      // Abaisser le footer
+      if (footerContent) {
+        footerContent.classList.add('collapsed');
+        if (footerBar) footerBar.classList.add('collapsed');
+      }
+    }
+  }
+
+  function expand() {
+    isCollapsed = false;
+    // Descendre le header
+    if (header) header.classList.remove('header-collapsed');
+    // Remonter le footer
+    if (footerContent) {
+      footerContent.classList.remove('collapsed');
+      if (footerBar) footerBar.classList.remove('collapsed');
+    }
+  }
+
+  if (mainContent) {
+    // Desktop — survol souris
+    mainContent.addEventListener('mouseenter', collapse);
+    mainContent.addEventListener('mouseleave', expand);
+
+    // Mobile/tablette — tap sur le contenu
+    mainContent.addEventListener('click', function(e) {
+      // Ne pas déclencher si clic sur un lien ou bouton
+      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+        if (isCollapsed) {
+          expand();
+        } else {
+          collapse();
+        }
+      }
     });
   }
+
+  // Footer manuel — poignée
+  var handle = document.getElementById('footer-handle');
+  if (handle && footerContent) {
+    handle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (footerContent.classList.contains('collapsed')) {
+        footerContent.classList.remove('collapsed');
+        if (footerBar) footerBar.classList.remove('collapsed');
+        isCollapsed = false;
+      } else {
+        footerContent.classList.add('collapsed');
+        if (footerBar) footerBar.classList.add('collapsed');
+        isCollapsed = true;
+      }
+    });
+  }
+
 });
 </script>
-  </body>
+   </body>
 </html>
