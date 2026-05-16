@@ -534,3 +534,31 @@ html, body {
     font-size: 0.9rem;
   }
 }
+/* ========== HEADER AUTO-COLLAPSIBLE ========== */
+.page-header {
+  transition: min-height 0.4s ease, padding 0.4s ease;
+}
+
+.page-header.header-collapsed {
+  min-height: 70px !important;
+  padding: 8px 2rem !important;
+}
+
+.page-header.header-collapsed .header-text {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.page-header.header-collapsed .header-logo {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.header-text {
+  transition: opacity 0.3s ease, max-height 0.3s ease;
+  max-height: 200px;
+  opacity: 1;
+}
