@@ -873,3 +873,83 @@ html, body {
     padding: 5px 8px;
   }
 }
+/* ========== PAGE ÉVÉNEMENTS ========== */
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.event-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.event-card:hover { transform: translateY(-3px); }
+
+.event-upcoming { border-left: 4px solid #E8891A; }
+.event-past     { border-left: 4px solid #2e9e4f; }
+
+.event-date {
+  flex-shrink: 0;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f0f8ff;
+}
+
+.event-upcoming .event-date { background: #fff8f0; }
+.event-past .event-date     { background: #f0fff0; }
+
+.event-day {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2e7fb5;
+  line-height: 1;
+}
+
+.event-month {
+  display: block;
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.event-details h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.event-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Responsive événements */
+@media (max-width: 480px) {
+  .event-card {
+    flex-direction: column;
+  }
+
+  .event-date {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}
