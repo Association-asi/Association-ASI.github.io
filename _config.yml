@@ -2,12 +2,16 @@ title: "Association de Soutien International"
 description: "Actualités et actions de l'association ASI"
 lang: fr
 theme: jekyll-theme-cayman
+
 author:
   name: "Association ASI"
 
-# Menu de navigation
 header_pages:
   - about.md
   - adhesion.md
   - contact.md
-  google_analytics: G-V1ZFQ7B2WF
+
+google_analytics: G-V1ZFQ7B2WF
+
+plugins:
+  - jekyll-feed
