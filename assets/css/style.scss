@@ -589,8 +589,8 @@ html, body {
   transform: scale(1.03);
 }
 
-.tarif-card.featured .tarif-header {
-  padding-top: 45px;
+.tarif-card.featured:hover {
+  transform: scale(1.03) translateY(-8px);
 }
 
 .tarif-badge {
