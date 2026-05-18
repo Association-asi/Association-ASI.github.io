@@ -4,17 +4,105 @@ title: Adhesion
 permalink: /adhesion/
 ---
 
-## Rejoindre l'ASI
+## <i class="fa-solid fa-id-card" style="color:#4A9FD4;"></i> Adhérer à l'ASI
 
-Vous souhaitez soutenir nos actions ? Adhérez à l'association !
+<p style="text-align:center; color:#555; margin-bottom:30px;">
+  Soutenir l'ASI c'est rejoindre une communauté engagée pour un monde
+  plus solidaire. Choisissez la formule qui vous correspond !
+</p>
 
-## Tarifs
+<div class="tarifs-grid">
 
-| Type | Montant |
-|------|---------|
-| Adhésion simple | À compléter |
-| Adhésion soutien | À compléter |
+  <div class="tarif-card">
+    <div class="tarif-header bleu">
+      <i class="fa-solid fa-user"></i>
+      <h3>Adhésion simple</h3>
+    </div>
+    <div class="tarif-body">
+      <div class="tarif-prix">
+        <span class="prix">À compléter</span>
+        <span class="periode">/ an</span>
+      </div>
+      <ul class="tarif-avantages">
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Carte de membre officielle
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Newsletter et actualités
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Accès aux événements ASI
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Reçu fiscal déductible
+        </li>
+      </ul>
+      <a href="mailto:asid.paris@protonmail.com?subject=Adhesion simple ASI"
+         class="tarif-btn btn-bleu">
+        <i class="fa-solid fa-paper-plane"></i>
+        Je m'inscris
+      </a>
+    </div>
+  </div>
 
+  <div class="tarif-card featured">
+    <div class="tarif-badge">⭐ Recommandé</div>
+    <div class="tarif-header orange">
+      <i class="fa-solid fa-users"></i>
+      <h3>Adhésion soutien</h3>
+    </div>
+    <div class="tarif-body">
+      <div class="tarif-prix">
+        <span class="prix">À compléter</span>
+        <span class="periode">/ an</span>
+      </div>
+      <ul class="tarif-avantages">
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Tout de l'adhésion simple
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Soutien direct aux missions terrain
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Rapport annuel d'impact
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Invitation aux assemblées générales
+        </li>
+        <li>
+          <i class="fa-solid fa-circle-check"></i>
+          Reçu fiscal déductible
+        </li>
+      </ul>
+      <a href="mailto:asid.paris@protonmail.com?subject=Adhesion soutien ASI"
+         class="tarif-btn btn-orange">
+        <i class="fa-solid fa-paper-plane"></i>
+        Je m'inscris
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<div style="text-align:center; margin:20px 0; padding:15px;
+            background:#f0fff0; border-radius:10px;
+            border:1px solid #2e9e4f;">
+  <p style="color:#2e9e4f; margin:0; font-size:0.9rem;">
+    <i class="fa-solid fa-circle-info"></i>
+    Les cotisations sont déductibles des impôts à hauteur de <strong>66%</strong>
+    pour les particuliers (association reconnue loi 1901).
+  </p>
+</div>
+
+<hr>
 
 ## <i class="fa-solid fa-handshake"></i> Rejoindre l'ASI
 
