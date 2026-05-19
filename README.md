@@ -1,26 +1,14 @@
----
-layout: default
----
+# Association de Soutien International (ASI)
 
-<div style="text-align:center; padding: 20px 0;">
-  <img src="/assets/ASI2.jpeg" alt="Logo ASI" style="width:150px;">
-</div>
+Site web officiel de l'Association de Soutien International.
 
-## Bienvenue sur le site de l'ASI
+🌍 [Visiter le site](https://association-asi.github.io)
 
-L'**Association de Soutien International** œuvre chaque jour
-pour endiguer la pauvreté; promotionner l'accès au soin; améliorer les conditions de vie des familles;   
-développer la protection des droits des femmes et des enfants; développer l'automatisation des femmes
+## À propos
+L'ASI est une association loi 1901 fondée en 2024, intervenant
+en Afrique de l'Ouest (Burkina Faso, Ghana, Sénégal, Gabon)
+et en France pour la santé, l'éducation et l'aide aux personnes
+vulnérables.
 
----
-
-## 📰 Dernières actualités
-
-{% for post in site.posts limit:5 %}
-### [{{ post.title }}]({{ post.url }})
-*{{ post.date | date: "%d/%m/%Y" }}*
-
-{{ post.excerpt }}
-
----
-{% endfor %}
+## Contact
+📧 asid.paris@protonmail.com
