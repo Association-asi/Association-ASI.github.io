@@ -104,6 +104,149 @@ permalink: /adhesion/
 
 <hr>
 
+<div id="don"></div>
+
+## <i class="fa-solid fa-heart" style="color:#E8891A;"></i> Faire un don
+
+<div style="text-align:center; margin:20px 0; padding:20px;
+            background:linear-gradient(135deg, #fff8f0, #fff3e0);
+            border-radius:15px; border-left:5px solid #E8891A;">
+  <p style="font-size:1.1rem; color:#E8891A; font-weight:bold; margin:0;">
+    <i class="fa-solid fa-hand-holding-heart"></i>
+    Votre don finance directement nos missions humanitaires
+  </p>
+  <p style="color:#555; margin:10px 0 0 0;">
+    Matériel médical, ambulances, soutien aux femmes —
+    <strong>chaque euro compte.</strong>
+  </p>
+</div>
+
+### <i class="fa-solid fa-scale-balanced" style="color:#4A9FD4;"></i> Cadre légal du don
+
+<div style="background:#f0f8ff; border-radius:12px; padding:20px;
+            border-left:4px solid #4A9FD4; margin:15px 0;">
+
+<ul style="list-style:none; padding:0; margin:0;">
+  <li style="margin-bottom:12px;">
+    <i class="fa-solid fa-circle-check" style="color:#2e9e4f; margin-right:8px;"></i>
+    L'ASI est une <strong>association déclarée loi 1901</strong> à but non lucratif
+  </li>
+  <li style="margin-bottom:12px;">
+    <i class="fa-solid fa-circle-check" style="color:#2e9e4f; margin-right:8px;"></i>
+    Vos dons sont <strong>déductibles des impôts</strong> à hauteur de
+    <strong>66%</strong> du montant versé (dans la limite de 20% du revenu imposable)
+  </li>
+  <li style="margin-bottom:12px;">
+    <i class="fa-solid fa-circle-check" style="color:#2e9e4f; margin-right:8px;"></i>
+    Un <strong>reçu fiscal</strong> vous est automatiquement délivré
+  </li>
+  <li style="margin-bottom:12px;">
+    <i class="fa-solid fa-circle-check" style="color:#2e9e4f; margin-right:8px;"></i>
+    Paiement <strong>100% sécurisé</strong> via HelloAsso
+  </li>
+  <li style="margin-bottom:0;">
+    <i class="fa-solid fa-circle-check" style="color:#2e9e4f; margin-right:8px;"></i>
+    <strong>Zéro commission</strong> prélevée sur votre don
+  </li>
+</ul>
+
+</div>
+
+### <i class="fa-solid fa-euro-sign" style="color:#E8891A;"></i> Montants suggérés
+
+<div style="display:flex; justify-content:center; gap:15px;
+            flex-wrap:wrap; margin:20px 0;">
+
+  <div style="background:#fff; border:2px solid #E8891A; border-radius:12px;
+              padding:15px 25px; text-align:center; min-width:100px;
+              transition:all 0.3s; cursor:pointer;">
+    <div style="font-size:1.5rem; font-weight:bold; color:#E8891A;">10€</div>
+    <div style="color:#888; font-size:0.8rem;">Petit soutien</div>
+  </div>
+
+  <div style="background:#E8891A; border:2px solid #E8891A; border-radius:12px;
+              padding:15px 25px; text-align:center; min-width:100px;">
+    <div style="font-size:1.5rem; font-weight:bold; color:#fff;">25€</div>
+    <div style="color:rgba(255,255,255,0.85); font-size:0.8rem;">⭐ Populaire</div>
+  </div>
+
+  <div style="background:#fff; border:2px solid #E8891A; border-radius:12px;
+              padding:15px 25px; text-align:center; min-width:100px;
+              transition:all 0.3s; cursor:pointer;">
+    <div style="font-size:1.5rem; font-weight:bold; color:#E8891A;">50€</div>
+    <div style="color:#888; font-size:0.8rem;">Grand soutien</div>
+  </div>
+
+  <div style="background:#fff; border:2px solid #E8891A; border-radius:12px;
+              padding:15px 25px; text-align:center; min-width:100px;
+              transition:all 0.3s; cursor:pointer;">
+    <div style="font-size:1.5rem; font-weight:bold; color:#E8891A;">100€</div>
+    <div style="color:#888; font-size:0.8rem;">Généreux donateur</div>
+  </div>
+
+  <div style="background:#fff; border:2px dashed #E8891A; border-radius:12px;
+              padding:15px 25px; text-align:center; min-width:100px;">
+    <div style="font-size:1.5rem; font-weight:bold; color:#E8891A;">Libre</div>
+    <div style="color:#888; font-size:0.8rem;">Votre choix</div>
+  </div>
+
+</div>
+
+### <i class="fa-solid fa-credit-card" style="color:#4A9FD4;"></i> Moyens de paiement acceptés
+
+<div style="display:flex; justify-content:center; gap:20px;
+            flex-wrap:wrap; margin:15px 0; text-align:center;">
+  <span style="background:#f8f9fa; padding:8px 15px; border-radius:8px;
+               color:#555; font-size:0.9rem;">
+    <i class="fa-brands fa-cc-visa" style="color:#1A1F71; font-size:1.2rem;"></i>
+    Visa
+  </span>
+  <span style="background:#f8f9fa; padding:8px 15px; border-radius:8px;
+               color:#555; font-size:0.9rem;">
+    <i class="fa-brands fa-cc-mastercard" style="color:#EB001B; font-size:1.2rem;"></i>
+    Mastercard
+  </span>
+  <span style="background:#f8f9fa; padding:8px 15px; border-radius:8px;
+               color:#555; font-size:0.9rem;">
+    <i class="fa-brands fa-paypal" style="color:#003087; font-size:1.2rem;"></i>
+    PayPal
+  </span>
+  <span style="background:#f8f9fa; padding:8px 15px; border-radius:8px;
+               color:#555; font-size:0.9rem;">
+    <i class="fa-solid fa-building-columns" style="color:#4A9FD4; font-size:1.2rem;"></i>
+    Virement
+  </span>
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="VOTRE_LIEN_HELLOASSO"
+     target="_blank"
+     style="display:inline-flex; align-items:center; gap:12px;
+            background:linear-gradient(135deg, #E8891A, #c97315);
+            color:white; padding:18px 50px; border-radius:50px;
+            text-decoration:none; font-weight:bold; font-size:1.1rem;
+            box-shadow:0 6px 20px rgba(232,137,26,0.45);
+            transition:all 0.3s;">
+    <i class="fa-solid fa-heart"></i>
+    Je fais un don maintenant
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+  <p style="color:#aaa; font-size:0.82rem; margin-top:12px;">
+    <i class="fa-solid fa-lock" style="color:#2e9e4f;"></i>
+    Paiement 100% sécurisé via HelloAsso —
+    <i class="fa-solid fa-file-invoice" style="color:#4A9FD4;"></i>
+    Reçu fiscal automatique
+  </p>
+</div>
+
+<div style="margin-top:20px; padding:15px; background:#f0fff0;
+            border-radius:10px; border:1px solid #2e9e4f;
+            font-size:0.85rem; color:#555; text-align:center;">
+  <i class="fa-solid fa-circle-info" style="color:#2e9e4f;"></i>
+  <strong>Exemple :</strong> Un don de 25€ ne vous coûte réellement que
+  <strong style="color:#2e9e4f;">8,50€</strong> après déduction fiscale de 66%.
+</div>
+
 ## <i class="fa-solid fa-handshake"></i> Rejoindre l'ASI
 
 <div style="text-align:center; margin:20px 0; padding:20px;
