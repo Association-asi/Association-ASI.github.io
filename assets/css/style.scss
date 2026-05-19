@@ -10,7 +10,11 @@ $body-link-color: #E8891A;
 @import "{{ site.theme }}";
 
 /* ========== MISE EN PAGE GÉNÉRALE ========== */
-html, body { height: 100%; margin: 0; }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 @media (min-width: 769px) {
   body.fixed-layout {
@@ -18,12 +22,17 @@ html, body { height: 100%; margin: 0; }
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
+    background: #f8f9fa;
   }
+
   .main-content.scrollable {
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
     padding: 2rem 4rem;
     scroll-behavior: smooth;
+    background: #ffffff;
+    min-height: 0;
   }
 }
 
@@ -33,12 +42,16 @@ html, body { height: 100%; margin: 0; }
     flex-direction: column;
     min-height: 100vh;
     overflow: visible;
+    background: #f8f9fa;
   }
+
   .main-content.scrollable {
     flex: 1;
     overflow: visible;
     padding: 1rem;
+    background: #ffffff;
   }
+
   .site-footer { margin-top: auto; }
 }
 
