@@ -362,20 +362,23 @@ html, body { height: 100%; margin: 0; }
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   color: white;
-  font-size: 0.85rem;
+  font-size: 0.68rem;
   text-decoration: none;
-  transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 .social-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
   color: white;
+}
+
+@media (max-width: 768px) {
+  .social-btn { width: 28px; height: 28px; font-size: 0.75rem; }
 }
 
 .social-btn.facebook  { background: #1877F2; }
