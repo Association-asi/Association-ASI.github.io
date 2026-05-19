@@ -36,9 +36,8 @@
         </div>
       </div>
 
-      <!-- NAVIGATION DANS LE HEADER -->
       <nav class="header-nav">
-         <a href="/" class="nav-link">
+        <a href="/" class="nav-link">
           <i class="fa-solid fa-house"></i> Accueil
         </a>
         <a href="/about" class="nav-link">
@@ -104,7 +103,7 @@
             <i class="fa-solid fa-file-pdf"></i> Plaquette
           </a>
           <a href="/evenements">
-            <i class="fa-solid fa-calendar-star"></i> Événements
+            <i class="fa-solid fa-calendar-days"></i> Événements
           </a>
         </nav>
 
@@ -195,162 +194,4 @@
     </script>
 
   </body>
-</html>
-
-    <!-- CONTENU PRINCIPAL -->
-    <main id="content" class="main-content scrollable" role="main">
-      {{ content }}
-    </main>
-
-    <!-- PIED DE PAGE -->
-    <footer class="site-footer" id="site-footer">
-  <div class="footer-handle" id="footer-handle">
-    <span class="footer-handle-bar"></span>
-  </div>
-  <div class="footer-content" id="footer-content">
-
-     <!-- RÉSEAUX SOCIAUX -->
-    <div class="social-nav">
-      <a href="#" target="_blank" class="social-btn facebook"
-         title="Facebook ASI">
-        <i class="fa-brands fa-facebook-f"></i>
-      </a>
-      <a href="#" target="_blank" class="social-btn instagram"
-         title="Instagram ASI">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-      <a href="#" target="_blank" class="social-btn twitter"
-         title="X (Twitter) ASI">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-      <a href="#" target="_blank" class="social-btn youtube"
-         title="YouTube ASI">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-      <a href="#" target="_blank" class="social-btn linkedin"
-         title="LinkedIn ASI">
-        <i class="fa-brands fa-linkedin-in"></i>
-      </a>
-      <a href="#" target="_blank" class="social-btn whatsapp"
-         title="WhatsApp ASI">
-        <i class="fa-brands fa-whatsapp"></i>
-      </a>
-    </div>
-    
-     <!-- NAVIGATION FOOTER -->
-      <nav class="footer-nav">
-        <a href="/contact">
-          <i class="fa-solid fa-envelope"></i> Contact
-        </a>
-        <a href="/partenaires">
-          <i class="fa-solid fa-handshake"></i> Partenaires
-        </a>
-        <a href="/plaquettes.pdf" target="_blank">
-          <i class="fa-solid fa-file-pdf"></i> Plaquette
-        </a>
-        <a href="/evenements">
-          <i class="fa-solid fa-calendar-days"></i> Événements
-        </a>
-      </nav>
-
-      <!-- LIENS LÉGAUX -->
-      <nav class="footer-legal">
-        <a href="/mentions-legales">
-          <i class="fa-solid fa-scale-balanced"></i> Mentions légales
-        </a>
-        <a href="/politique-confidentialite">
-          <i class="fa-solid fa-shield-halved"></i> Politique de confidentialité
-         </a>
-       </nav>
-    
-      <span class="site-footer-credits">
-        © {{ site.title }} — Généré par
-        <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
-      </span>
-    </div>
-    </footer>
-
-    <!-- Script Netlify Identity -->
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
-    </script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-
-  var mainContent = document.getElementById('content');
-  var header = document.querySelector('.page-header');
-  var footerContent = document.getElementById('footer-content');
-  var footerBar = document.querySelector('.footer-handle-bar');
-  var isCollapsed = false;
-
-  function collapse() {
-    if (!isCollapsed) {
-      isCollapsed = true;
-      // Monter le header
-      if (header) header.classList.add('header-collapsed');
-      // Abaisser le footer
-      if (footerContent) {
-        footerContent.classList.add('collapsed');
-        if (footerBar) footerBar.classList.add('collapsed');
-      }
-    }
-  }
-
-  function expand() {
-    isCollapsed = false;
-    // Descendre le header
-    if (header) header.classList.remove('header-collapsed');
-    // Remonter le footer
-    if (footerContent) {
-      footerContent.classList.remove('collapsed');
-      if (footerBar) footerBar.classList.remove('collapsed');
-    }
-  }
-
-  if (mainContent) {
-    // Desktop — survol souris
-    mainContent.addEventListener('mouseenter', collapse);
-    mainContent.addEventListener('mouseleave', expand);
-
-    // Mobile/tablette — tap sur le contenu
-    mainContent.addEventListener('click', function(e) {
-      // Ne pas déclencher si clic sur un lien ou bouton
-      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
-        if (isCollapsed) {
-          expand();
-        } else {
-          collapse();
-        }
-      }
-    });
-  }
-
-  // Footer manuel — poignée
-  var handle = document.getElementById('footer-handle');
-  if (handle && footerContent) {
-    handle.addEventListener('click', function(e) {
-      e.stopPropagation();
-      if (footerContent.classList.contains('collapsed')) {
-        footerContent.classList.remove('collapsed');
-        if (footerBar) footerBar.classList.remove('collapsed');
-        isCollapsed = false;
-      } else {
-        footerContent.classList.add('collapsed');
-        if (footerBar) footerBar.classList.add('collapsed');
-        isCollapsed = true;
-      }
-    });
-  }
-
-});
-</script>
-   </body>
 </html>
