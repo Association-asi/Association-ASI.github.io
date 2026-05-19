@@ -141,32 +141,21 @@ html, body {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 7px 14px;
-  border-radius: 25px;
+  padding: 8px 16px;
   text-decoration: none;
-  color: rgba(255,255,255,0.9);
-  font-weight: bold;
+  color: rgba(255,255,255,0.85);
+  font-weight: 600;
   font-size: 0.88rem;
-  transition: all 0.2s;
-  border: 1px solid rgba(255,255,255,0.3);
+  border: none;
+  background: transparent;
+  border-radius: 8px;
+  transition: all 0.25s ease;
 }
 
 .nav-link:hover {
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.18);
   color: #ffffff;
-  border-color: rgba(255,255,255,0.6);
-}
-
-.nav-link-don {
-  background: #E8891A;
-  color: white !important;
-  border-color: #E8891A !important;
-  box-shadow: 0 3px 10px rgba(232,137,26,0.4);
-}
-
-.nav-link-don:hover {
-  background: #ffffff !important;
-  color: #E8891A !important;
+  transform: translateY(-2px);
 }
 
 /* ========== ZONE CENTRALE ========== */
