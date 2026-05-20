@@ -138,60 +138,95 @@
     </script>
 
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var mainContent = document.getElementById('content');
-      var header = document.querySelector('.page-header');
-      var footerContent = document.getElementById('footer-content');
-      var footerBar = document.querySelector('.footer-handle-bar');
-      var isCollapsed = false;
+document.addEventListener('DOMContentLoaded', function() {
 
-      function collapse() {
-        if (!isCollapsed) {
-          isCollapsed = true;
-          if (header) header.classList.add('header-collapsed');
-          if (footerContent) {
-            footerContent.classList.add('collapsed');
-            if (footerBar) footerBar.classList.add('collapsed');
-          }
-        }
+  var mainContent = document.getElementById('content');
+  var header = document.querySelector('.page-header');
+  var footerContent = document.getElementById('footer-content');
+  var footerBar = document.querySelector('.footer-handle-bar');
+  var isCollapsed = false;
+  var collapseTimer;
+  var expandTimer;
+
+  function collapse() {
+    if (!isCollapsed) {
+      isCollapsed = true;
+      if (header) header.classList.add('header-collapsed');
+      if (footerContent) {
+        footerContent.classList.add('collapsed');
+        if (footerBar) footerBar.classList.add('collapsed');
       }
+    }
+  }
 
-      function expand() {
-        isCollapsed = false;
-        if (header) header.classList.remove('header-collapsed');
-        if (footerContent) {
-          footerContent.classList.remove('collapsed');
-          if (footerBar) footerBar.classList.remove('collapsed');
-        }
-      }
+  function expand() {
+    isCollapsed = false;
+    if (header) header.classList.remove('header-collapsed');
+    if (footerContent) {
+      footerContent.classList.remove('collapsed');
+      if (footerBar) footerBar.classList.remove('collapsed');
+    }
+  }
 
-      if (mainContent) {
-        mainContent.addEventListener('mouseenter', collapse);
-        mainContent.addEventListener('mouseleave', expand);
-        mainContent.addEventListener('click', function(e) {
-          if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
-            if (isCollapsed) { expand(); } else { collapse(); }
-          }
-        });
-      }
+  /* ====== CLIC SUR UN LIEN DE NAVIGATION ====== */
+  var navLinks = document.querySelectorAll('.nav-link, .footer-nav a');
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+      setTimeout(collapse, 100);
+    });
+  });
 
-      var handle = document.getElementById('footer-handle');
-      if (handle && footerContent) {
-        handle.addEventListener('click', function(e) {
-          e.stopPropagation();
-          if (footerContent.classList.contains('collapsed')) {
-            footerContent.classList.remove('collapsed');
-            if (footerBar) footerBar.classList.remove('collapsed');
-            isCollapsed = false;
-          } else {
-            footerContent.classList.add('collapsed');
-            if (footerBar) footerBar.classList.add('collapsed');
-            isCollapsed = true;
-          }
-        });
+  /* ====== DESKTOP — survol souris avec délai ====== */
+  if (mainContent) {
+    mainContent.addEventListener('mouseenter', function() {
+      clearTimeout(expandTimer);
+      collapseTimer = setTimeout(collapse, 300);
+    });
+
+    mainContent.addEventListener('mouseleave', function() {
+      clearTimeout(collapseTimer);
+      expandTimer = setTimeout(expand, 300);
+    });
+
+    /* ====== MOBILE — tap sur le contenu ====== */
+    mainContent.addEventListener('click', function(e) {
+      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+        if (isCollapsed) { expand(); } else { collapse(); }
       }
     });
-    </script>
+  }
+
+  /* ====== POIGNÉE FOOTER MANUELLE ====== */
+  var handle = document.getElementById('footer-handle');
+  if (handle && footerContent) {
+    handle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (footerContent.classList.contains('collapsed')) {
+        footerContent.classList.remove('collapsed');
+        if (footerBar) footerBar.classList.remove('collapsed');
+        isCollapsed = false;
+        if (header) header.classList.remove('header-collapsed');
+      } else {
+        footerContent.classList.add('collapsed');
+        if (footerBar) footerBar.classList.add('collapsed');
+        isCollapsed = true;
+        if (header) header.classList.add('header-collapsed');
+      }
+    });
+  }
+
+  /* ====== SCROLL VERS LE HAUT À CHAQUE NAVIGATION ====== */
+  var navLinks2 = document.querySelectorAll('.nav-link, .footer-nav a');
+  navLinks2.forEach(function(link) {
+    link.addEventListener('click', function() {
+      setTimeout(function() {
+        if (mainContent) mainContent.scrollTop = 0;
+      }, 100);
+    });
+  });
+
+});
+</script>
 
   </body>
 </html>
