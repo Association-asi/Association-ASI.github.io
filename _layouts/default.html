@@ -145,17 +145,14 @@ document.addEventListener('DOMContentLoaded', function() {
   var footerContent = document.getElementById('footer-content');
   var footerBar = document.querySelector('.footer-handle-bar');
   var isCollapsed = false;
-  var collapseTimer;
-  var expandTimer;
 
+  /* ====== FONCTIONS COLLAPSE / EXPAND ====== */
   function collapse() {
-    if (!isCollapsed) {
-      isCollapsed = true;
-      if (header) header.classList.add('header-collapsed');
-      if (footerContent) {
-        footerContent.classList.add('collapsed');
-        if (footerBar) footerBar.classList.add('collapsed');
-      }
+    isCollapsed = true;
+    if (header) header.classList.add('header-collapsed');
+    if (footerContent) {
+      footerContent.classList.add('collapsed');
+      if (footerBar) footerBar.classList.add('collapsed');
     }
   }
 
@@ -168,62 +165,45 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  /* ====== CLIC SUR UN LIEN DE NAVIGATION ====== */
-  /* Collapse automatique au clic sur toute rubrique */
-  var navLinks = document.querySelectorAll('.nav-link, .footer-nav a');
-  navLinks.forEach(function(link) {
-    link.addEventListener('click', function() {
-      setTimeout(collapse, 100);
-    });
-  });
+  /* ====== CLIC SUR N'IMPORTE QUEL LIEN DE NAV ====== */
+  /* Header + Footer + tous les liens de navigation */
+  var allNavLinks = document.querySelectorAll(
+    '.nav-link, .footer-nav a, .footer-legal a'
+  );
 
-  /* ====== DESKTOP — survol souris avec délai ====== */
-  if (mainContent) {
-    mainContent.addEventListener('mouseenter', function() {
-      clearTimeout(expandTimer);
-      collapseTimer = setTimeout(collapse, 300);
-    });
-
-    mainContent.addEventListener('mouseleave', function() {
-      clearTimeout(collapseTimer);
-      expandTimer = setTimeout(expand, 300);
-    });
-
-    /* ====== MOBILE — tap sur le contenu ====== */
-    mainContent.addEventListener('click', function(e) {
-      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
-        if (isCollapsed) { expand(); } else { collapse(); }
-      }
-    });
-  }
-
-  /* ====== POIGNÉE FOOTER MANUELLE ====== */
-  var handle = document.getElementById('footer-handle');
-  if (handle && footerContent) {
-    handle.addEventListener('click', function(e) {
-      e.stopPropagation();
-      if (footerContent.classList.contains('collapsed')) {
-        footerContent.classList.remove('collapsed');
-        if (footerBar) footerBar.classList.remove('collapsed');
-        isCollapsed = false;
-        if (header) header.classList.remove('header-collapsed');
-      } else {
-        footerContent.classList.add('collapsed');
-        if (footerBar) footerBar.classList.add('collapsed');
-        isCollapsed = true;
-        if (header) header.classList.add('header-collapsed');
-      }
-    });
-  }
-
-  /* ====== SCROLL VERS LE HAUT À CHAQUE NAVIGATION ====== */
-  navLinks.forEach(function(link) {
+  allNavLinks.forEach(function(link) {
     link.addEventListener('click', function() {
       setTimeout(function() {
+        collapse();
+        /* Scroll vers le haut du contenu */
         if (mainContent) mainContent.scrollTop = 0;
-      }, 100);
+      }, 150);
     });
   });
+
+  /* ====== POIGNÉE FOOTER = TOGGLE MANUEL ====== */
+  var handle = document.getElementById('footer-handle');
+  if (handle) {
+    handle.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (isCollapsed) {
+        expand();
+      } else {
+        collapse();
+      }
+    });
+  }
+
+  /* ====== TAP SUR LE CONTENU MOBILE = EXPAND ====== */
+  if (mainContent) {
+    mainContent.addEventListener('click', function(e) {
+      if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
+        if (isCollapsed) {
+          expand();
+        }
+      }
+    });
+  }
 
 });
 </script>
