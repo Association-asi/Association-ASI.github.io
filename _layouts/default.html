@@ -144,40 +144,35 @@ document.addEventListener('DOMContentLoaded', function() {
   var header = document.querySelector('.page-header');
   var footerContent = document.getElementById('footer-content');
   var footerBar = document.querySelector('.footer-handle-bar');
-  var isCollapsed = false;
 
   /* ====== FONCTIONS COLLAPSE / EXPAND ====== */
   function collapse() {
-    isCollapsed = true;
-    if (header) header.classList.add('header-collapsed');
-    if (footerContent) {
-      footerContent.classList.add('collapsed');
-      if (footerBar) footerBar.classList.add('collapsed');
-    }
+    header && header.classList.add('header-collapsed');
+    footerContent && footerContent.classList.add('collapsed');
+    footerBar && footerBar.classList.add('collapsed');
+    sessionStorage.setItem('asi-collapsed', 'true');
   }
 
   function expand() {
-    isCollapsed = false;
-    if (header) header.classList.remove('header-collapsed');
-    if (footerContent) {
-      footerContent.classList.remove('collapsed');
-      if (footerBar) footerBar.classList.remove('collapsed');
-    }
+    header && header.classList.remove('header-collapsed');
+    footerContent && footerContent.classList.remove('collapsed');
+    footerBar && footerBar.classList.remove('collapsed');
+    sessionStorage.setItem('asi-collapsed', 'false');
   }
 
-  /* ====== CLIC SUR N'IMPORTE QUEL LIEN DE NAV ====== */
-  /* Header + Footer + tous les liens de navigation */
+  /* ====== APPLIQUER L'ÉTAT AU CHARGEMENT DE LA PAGE ====== */
+  if (sessionStorage.getItem('asi-collapsed') === 'true') {
+    collapse();
+  }
+
+  /* ====== CLIC SUR UN LIEN DE NAV → COLLAPSE PERMANENT ====== */
   var allNavLinks = document.querySelectorAll(
     '.nav-link, .footer-nav a, .footer-legal a'
   );
 
   allNavLinks.forEach(function(link) {
     link.addEventListener('click', function() {
-      setTimeout(function() {
-        collapse();
-        /* Scroll vers le haut du contenu */
-        if (mainContent) mainContent.scrollTop = 0;
-      }, 150);
+      sessionStorage.setItem('asi-collapsed', 'true');
     });
   });
 
@@ -186,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
   if (handle) {
     handle.addEventListener('click', function(e) {
       e.stopPropagation();
-      if (isCollapsed) {
+      if (sessionStorage.getItem('asi-collapsed') === 'true') {
         expand();
       } else {
         collapse();
@@ -194,11 +189,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  /* ====== TAP SUR LE CONTENU MOBILE = EXPAND ====== */
+  /* ====== TAP SUR LE CONTENU = RE-EXPAND ====== */
   if (mainContent) {
     mainContent.addEventListener('click', function(e) {
       if (e.target.tagName !== 'A' && e.target.tagName !== 'BUTTON') {
-        if (isCollapsed) {
+        if (sessionStorage.getItem('asi-collapsed') === 'true') {
           expand();
         }
       }
