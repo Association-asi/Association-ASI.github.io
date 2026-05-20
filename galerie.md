@@ -12,60 +12,80 @@ permalink: /galerie/
 <div class="galerie-grid">
 
   <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=400"
-         alt="Matériel médical">
+    <img src="https://flagcdn.com/w640/bf.png"
+         alt="Burkina Faso"
+         style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/16x12/bf.png" alt="Burkina">
+      <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina">
       Burkina Faso — Matériel médical
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400"
-         alt="Hôpital Ghana">
+    <img src="https://flagcdn.com/w640/gh.png"
+         alt="Ghana"
+         style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/16x12/gh.png" alt="Ghana">
+      <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana">
       Ghana — Soutien hospitalier
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=400"
-         alt="Agriculture Sénégal">
+    <img src="https://flagcdn.com/w640/sn.png"
+         alt="Sénégal"
+         style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/16x12/sn.png" alt="Sénégal">
+      <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal">
       Sénégal — Autonomie des femmes
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400"
-         alt="Soins Gabon">
+    <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=640"
+         alt="Matériel médical">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/16x12/ga.png" alt="Gabon">
-      Gabon — Matériel médical
+      🏥 Matériel médical
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400"
-         alt="Don vêtements France">
-    <div class="galerie-legende">
-      <img src="https://flagcdn.com/16x12/fr.png" alt="France">
-      France — Don de vêtements
-    </div>
-  </div>
-
-  <div class="galerie-item">
-    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=400"
+    <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=640"
          alt="Bénévoles">
     <div class="galerie-legende">
       🤝 Nos bénévoles en action
     </div>
   </div>
 
-</div>
+  <div class="galerie-item">
+    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=640"
+         alt="Enfants">
+    <div class="galerie-legende">
+      🧒 Soutien aux enfants
+    </div>
+  </div>
 
+  <div class="galerie-item">
+    <img src="https://flagcdn.com/w640/ga.png"
+         alt="Gabon"
+         style="object-fit:cover; object-position:center;">
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon">
+      Gabon — Matériel médical
+    </div>
+  </div>
+
+  <div class="galerie-item">
+    <img src="https://flagcdn.com/w640/fr.png"
+         alt="France"
+         style="object-fit:cover; object-position:center;">
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/fr.png" alt="France">
+      France — Don de vêtements
+    </div>
+  </div>
+
+</div>
 <div style="text-align:center; margin-top:20px; padding:15px;
             background:#f8f9fa; border-radius:10px;">
   <p style="color:#888; font-size:0.85rem; margin:0;">
