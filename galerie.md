@@ -12,31 +12,28 @@ permalink: /galerie/
 <div class="galerie-grid">
 
   <div class="galerie-item">
-    <img src="https://flagcdn.com/w640/bf.png"
-         alt="Burkina Faso"
+    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina">
+    alt="Burkina Faso"
          style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina">
-      Burkina Faso — Matériel médical
+            Burkina Faso — Matériel médical
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://flagcdn.com/w640/gh.png"
+      <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana">
          alt="Ghana"
          style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana">
       Ghana — Soutien hospitalier
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://flagcdn.com/w640/sn.png"
+      <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal">
          alt="Sénégal"
          style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal">
       Sénégal — Autonomie des femmes
     </div>
   </div>
@@ -66,21 +63,19 @@ permalink: /galerie/
   </div>
 
   <div class="galerie-item">
-    <img src="https://flagcdn.com/w640/ga.png"
+      <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon">
          alt="Gabon"
          style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon">
       Gabon — Matériel médical
     </div>
   </div>
 
   <div class="galerie-item">
-    <img src="https://flagcdn.com/w640/fr.png"
+      <img src="https://flagcdn.com/24x18/fr.png" alt="France">
          alt="France"
          style="object-fit:cover; object-position:center;">
     <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/fr.png" alt="France">
       France — Don de vêtements
     </div>
   </div>
