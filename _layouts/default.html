@@ -137,7 +137,7 @@
     }
     </script>
 
-    <script>
+<script>
 document.addEventListener('DOMContentLoaded', function() {
 
   var mainContent = document.getElementById('content');
@@ -169,6 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   /* ====== CLIC SUR UN LIEN DE NAVIGATION ====== */
+  /* Collapse automatique au clic sur toute rubrique */
   var navLinks = document.querySelectorAll('.nav-link, .footer-nav a');
   navLinks.forEach(function(link) {
     link.addEventListener('click', function() {
@@ -216,8 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   /* ====== SCROLL VERS LE HAUT À CHAQUE NAVIGATION ====== */
-  var navLinks2 = document.querySelectorAll('.nav-link, .footer-nav a');
-  navLinks2.forEach(function(link) {
+  navLinks.forEach(function(link) {
     link.addEventListener('click', function() {
       setTimeout(function() {
         if (mainContent) mainContent.scrollTop = 0;
@@ -227,6 +227,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 </script>
-
   </body>
 </html>
