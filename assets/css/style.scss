@@ -230,10 +230,31 @@ html, body {
 .article-btn:hover { color: #2e7fb5; }
 
 /* ========== GALERIE MODERNISÉE ========== */
+.galerie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.galerie-item {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.galerie-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
 .galerie-img-wrapper {
   position: relative;
   overflow: hidden;
-  border-radius: 10px 10px 0 0;
 }
 
 .galerie-img-wrapper img {
@@ -250,6 +271,7 @@ html, body {
 .galerie-item:not(.galerie-pays) .galerie-img-wrapper img {
   object-fit: cover;
   padding: 0;
+  height: 200px;
 }
 
 .galerie-overlay {
@@ -261,7 +283,6 @@ html, body {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  border-radius: 10px 10px 0 0;
 }
 
 .galerie-overlay span {
@@ -276,26 +297,31 @@ html, body {
 .galerie-item:hover .galerie-overlay { opacity: 1; }
 .galerie-item:hover .galerie-img-wrapper img { transform: scale(1.05); }
 
+/* ====== LÉGENDE MODERNISÉE ====== */
 .galerie-legende {
-  padding: 12px 15px;
+  padding: 14px 15px;
   text-align: center;
-  background: #f8f9fa;
+  background: #ffffff;
   border-top: 3px solid #E8891A;
-  border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   align-items: center;
+  flex: 1;
 }
 
 .galerie-legende strong {
   color: #2e7fb5;
   font-size: 0.95rem;
+  display: block;
+  line-height: 1.3;
 }
 
 .galerie-legende span {
   color: #888;
   font-size: 0.8rem;
+  display: block;
+  line-height: 1.3;
 }
 
 .galerie-legende img {
@@ -308,14 +334,23 @@ html, body {
 }
 
 /* ========== RESPONSIVE GALERIE ========== */
+@media (max-width: 1024px) {
+  .galerie-grid { grid-template-columns: repeat(3, 1fr); gap: 15px; }
+}
+
 @media (max-width: 768px) {
   .galerie-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-  .galerie-img-wrapper img { height: 130px; }
+  .galerie-img-wrapper img { height: 140px; }
+  .galerie-item:not(.galerie-pays) .galerie-img-wrapper img { height: 160px; }
+  .galerie-legende strong { font-size: 0.85rem; }
+  .galerie-legende span { font-size: 0.75rem; }
 }
 
 @media (max-width: 480px) {
   .galerie-grid { grid-template-columns: 1fr; }
   .galerie-img-wrapper img { height: 180px; }
+  .galerie-item:not(.galerie-pays) .galerie-img-wrapper img { height: 200px; }
+  .galerie-legende { padding: 12px; }
 }
 
 /* ========== INSTAGRAM ========== */
