@@ -13,8 +13,7 @@ permalink: /contact/
       <i class="fa-solid fa-location-dot"></i>
       <div>
         <strong>Adresse</strong><br>
-        Bâtiment 23, 23 Allée de Fontainebleau<br>
-        Boîte 34 — 75019 Paris
+        75019 Paris<br>
       </div>
     </div>
     <div class="contact-info-item">
