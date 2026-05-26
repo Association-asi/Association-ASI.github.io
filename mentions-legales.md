@@ -20,8 +20,7 @@ Association de Soutien International (ASI)
 Association loi 1901
 
 **Siège social :**
-Bâtiment 23, 23 Allée de Fontainebleau
-Boîte 34, 75019 Paris 19e
+75019 Paris 19e
 
 **Email :**
 asid.paris@protonmail.com
