@@ -166,6 +166,15 @@ html, body {
 .nav-link:hover i {
   transform: translateY(-2px);
 }
+/* ========== SECTIONS TEMPORAIREMENT DÉSACTIVÉES ========== */
+.nav-link-don {
+  background: #aaa !important;
+  border-color: #aaa !important;
+  box-shadow: none !important;
+  cursor: not-allowed !important;
+  opacity: 0.7;
+  pointer-events: none;
+}
 /* ========== ZONE CENTRALE ========== */
 .main-content.scrollable {
   flex: 1;
