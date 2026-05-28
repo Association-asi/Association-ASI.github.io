@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Nos Partenaires
-permalink: /partenaires/
+title: "Partenaires"
+description: "Découvrez les partenaires institutionnels et associatifs de l'ASI qui soutiennent nos missions humanitaires en Afrique et en France."
+keywords: "partenaires ONG, partenariat association humanitaire, soutien institutionnel"
 ---
 
 ## <i class="fa-solid fa-handshake" style="color:#4A9FD4;"></i> Nos Partenaires
