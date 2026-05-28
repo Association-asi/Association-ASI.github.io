@@ -825,3 +825,26 @@ html, body {
   .event-card { flex-direction: column; }
   .event-date { width: 100%; display: flex; gap: 10px; align-items: center; }
 }
+/* Griser cartes adhésion */
+.tarifs-grid {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(60%);
+}
+
+/* Griser section don */
+#don ~ div,
+#don ~ h3,
+#don ~ ### {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(60%);
+}
+
+/* Griser formulaires */
+#inscription,
+#inscription ~ div {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(60%);
+}
