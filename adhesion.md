@@ -17,7 +17,6 @@ permalink: /adhesion/
       Adhésion et dons temporairement suspendus
     </p>
     <p style="color:#856404; margin:0; font-size:0.92rem; line-height:1.5;">
-      L'ouverture du compte bancaire de l'ASI est en cours de finalisation.
       Les formulaires d'adhésion et de don seront disponibles très prochainement.
       <strong>Merci de votre compréhension et de votre soutien !</strong>
     </p>
