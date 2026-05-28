@@ -1,19 +1,31 @@
-title: "Association de Soutien International — ASI"
-description: "L'ASI agit pour l'accès aux soins, l'autonomie des femmes et l'aide humanitaire en Afrique,et en France depuis 2024."
+title: "ASI — Association de Soutien International"
+description: "Association humanitaire loi 1901 agissant pour l'accès aux soins, l'autonomie des femmes et l'aide médicale en Afrique et en France depuis 2024."
 url: "https://association-asi.github.io"
+baseurl: ""
 lang: fr
-theme: jekyll-theme-cayman
+locale: fr_FR
+timezone: Europe/Paris
 
 author:
-  name: "Association ASI"
+  name: "Association de Soutien International"
+  email: "asid.paris@protonmail.com"
 
-header_pages:
-  - about.md
-  - adhesion.md
-  - contact.md
+# SEO
+tagline: "Agir concrètement là où le besoin est le plus grand"
+keywords: "association humanitaire, aide médicale Afrique, soutien international, ONG France, don matériel médical, bénévolat Paris, Burkina Faso, Ghana, Sénégal, Gabon, loi 1901"
 
+# Réseaux sociaux
+social:
+  name: "Association de Soutien International"
+  links:
+    - https://www.facebook.com/asi
+    - https://www.instagram.com/asi
+
+# Jekyll
+theme: jekyll-theme-cayman
 google_analytics: G-V1ZFQ7B2WF
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
