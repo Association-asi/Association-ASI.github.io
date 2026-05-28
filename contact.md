@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Contact
-permalink: /contact/
+title: "Contact"
+description: "Contactez l'Association de Soutien International à Paris. Formulaire de contact, adresse et email disponibles."
+keywords: "contact association humanitaire Paris, ASI Paris 75019"
 ---
 
 ## <i class="fa-solid fa-envelope"></i> Nous contacter
