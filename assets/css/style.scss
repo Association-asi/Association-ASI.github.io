@@ -825,26 +825,41 @@ html, body {
   .event-card { flex-direction: column; }
   .event-date { width: 100%; display: flex; gap: 10px; align-items: center; }
 }
-/* Griser cartes adhésion */
-.tarifs-grid {
-  opacity: 0.5;
-  pointer-events: none;
-  filter: grayscale(60%);
-}
-/* Griser section don */
-#don ~ div,
-#don ~ h3,
-#don ~ p,
-#don ~ a {
-  opacity: 0.5;
-  filter: grayscale(60%);
-  cursor: not-allowed;
+/* ========== SECTIONS TEMPORAIREMENT DÉSACTIVÉES ========== */
+.nav-link-don {
+  background: #aaa !important;
+  border-color: #aaa !important;
+  box-shadow: none !important;
+  cursor: not-allowed !important;
+  opacity: 0.7;
 }
 
-/* Griser formulaires */
+.tarifs-grid .tarif-card {
+  opacity: 0.45;
+  filter: grayscale(70%);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.tarifs-grid .tarif-card:hover {
+  transform: none !important;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1) !important;
+}
+
+#don,
+#don ~ div,
+#don ~ h3,
+#don ~ p {
+  opacity: 0.45;
+  filter: grayscale(70%);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 #inscription,
 #inscription ~ div {
-  opacity: 0.5;
+  opacity: 0.45;
+  filter: grayscale(70%);
+  cursor: not-allowed;
   pointer-events: none;
-  filter: grayscale(60%);
 }
