@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Adhésion"
+permalink: /adhesion/
 description: "Rejoignez l'Association de Soutien International. Devenez membre, bénévole ou faites un don pour soutenir nos missions humanitaires en Afrique et en France."
 keywords: "adhésion association humanitaire, devenir bénévole Paris, don ONG France, cotisation loi 1901"
 ---
