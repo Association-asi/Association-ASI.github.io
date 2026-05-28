@@ -831,14 +831,14 @@ html, body {
   pointer-events: none;
   filter: grayscale(60%);
 }
-
 /* Griser section don */
 #don ~ div,
 #don ~ h3,
-#don ~ ### {
+#don ~ p,
+#don ~ a {
   opacity: 0.5;
-  pointer-events: none;
   filter: grayscale(60%);
+  cursor: not-allowed;
 }
 
 /* Griser formulaires */
