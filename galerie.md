@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Nos actions"
+permalink: /galerie/
 description: "Découvrez les actions humanitaires de l'ASI en images — matériel médical, soutien hospitalier, aide aux femmes au Burkina Faso, Ghana, Sénégal, Gabon et France."
 keywords: "actions humanitaires Afrique, photos terrain ONG, matériel médical Burkina Ghana"
 ---
