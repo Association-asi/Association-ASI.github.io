@@ -10,7 +10,7 @@ keywords: "mission humanitaire, zones intervention Afrique, association loi 1901
 
 L'Association de Soutien International (ASI) est une organisation
 à but non lucratif intervenant dans les domaines de la **santé**, de l'**éducation**
-et de l'**accès aux besoins essentiels**, en France, en Afrique et partout où les populations auront besoin de leur soutien.
+et de l'**accès aux besoins essentiels**, en Afrique, en France et partout où les populations auront besoin de leur soutien.
 <hr>
 
 ## <i class="fa-solid fa-bullseye"></i> Notre mission
