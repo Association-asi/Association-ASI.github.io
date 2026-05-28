@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "À propos"
+permalink: /about/
 description: "Découvrez la mission, les valeurs et les zones d'intervention de l'Association de Soutien International — Burkina Faso, Ghana, Sénégal, Gabon et France."
 keywords: "mission humanitaire, zones intervention Afrique, association loi 1901 Paris, valeurs solidarité"
 ---
