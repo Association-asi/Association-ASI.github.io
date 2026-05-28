@@ -15,3 +15,4 @@ google_analytics: G-V1ZFQ7B2WF
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
