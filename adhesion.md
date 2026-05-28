@@ -4,6 +4,26 @@ title: Adhesion
 permalink: /adhesion/
 ---
 
+<!-- BANNIÈRE TEMPORAIRE -->
+<div style="background:linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border:2px solid #f0ad4e; border-radius:12px;
+            padding:20px 25px; margin-bottom:30px;
+            display:flex; align-items:flex-start; gap:15px;">
+  <i class="fa-solid fa-triangle-exclamation"
+     style="color:#f0ad4e; font-size:1.8rem; flex-shrink:0; margin-top:3px;">
+  </i>
+  <div>
+    <p style="color:#856404; font-weight:bold; font-size:1.05rem; margin:0 0 8px 0;">
+      Adhésion et dons temporairement suspendus
+    </p>
+    <p style="color:#856404; margin:0; font-size:0.92rem; line-height:1.5;">
+      L'ouverture du compte bancaire de l'ASI est en cours de finalisation.
+      Les formulaires d'adhésion et de don seront disponibles très prochainement.
+      <strong>Merci de votre compréhension et de votre soutien !</strong>
+    </p>
+  </div>
+</div>
+
 ## <i class="fa-solid fa-id-card" style="color:#4A9FD4;"></i> Adhérer à l'ASI
 
 <p style="text-align:center; color:#555; margin-bottom:30px;">
