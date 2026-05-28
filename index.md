@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Accueil"
+description: "L'ASI est une association humanitaire loi 1901 fondée en 2024. Nous agissons pour l'accès aux soins en Afrique et l'aide aux personnes vulnérables en France."
+keywords: "association humanitaire Paris, aide médicale Afrique, don association, soutien international"
 ---
 
 <!-- PHRASE D'ACCROCHE -->
