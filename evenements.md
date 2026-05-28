@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Événements
-permalink: /evenements/
+title: "Événements à venir"
+description: "Retrouvez les prochains événements de l'Association de Soutien International — collectes, conférences et missions humanitaires."
+keywords: "événements association humanitaire, collecte Paris, agenda ASI"
 ---
 
 ## <i class="fa-solid fa-calendar-days" style="color:#4A9FD4;"></i> Événements à venir
