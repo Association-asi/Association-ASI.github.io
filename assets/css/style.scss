@@ -84,8 +84,8 @@ html, body {
 }
 
 .header-logo {
-  width: 135px;
-  height: 135px;
+  width: 155px;    /* 135px + 15% = ~155px */
+  height: 155px;
   border-radius: 8px;
   object-fit: contain;
   transition: all 0.3s ease;
@@ -791,7 +791,7 @@ html, body {
 @media (max-width: 768px) {
   .page-header { min-height: 200px; padding: 1.5rem 1rem 0.5rem 1rem; }
   .header-inner { margin-left: 10px; gap: 8px; }
-  .header-logo { width: 85px; height: 85px; }
+  .header-logo { width: 98px; height: 98px; }
   .project-name { font-size: 1.2rem !important; }
   .project-tagline { font-size: 0.8rem !important; }
   .header-nav { padding: 8px 10px; gap: 4px; overflow-x: auto; flex-wrap: nowrap; }
@@ -815,7 +815,7 @@ html, body {
 /* ========== RESPONSIVE PETIT MOBILE ========== */
 @media (max-width: 480px) {
   .page-header { min-height: 160px; }
-  .header-logo { width: 65px; height: 65px; } 
+  .header-logo { width: 75px; height: 75px; }
   .project-name { font-size: 1rem !important; }
   .project-tagline { display: none; }
   .article-card-body { padding: 12px; }
