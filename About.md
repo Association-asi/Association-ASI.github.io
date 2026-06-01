@@ -31,8 +31,8 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/fr.png" alt="France"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
-    <strong>France (Paris)</strong> : réalisation d'un don de vêtements au profit
-    d'une association locale venant en aide aux personnes en situation de précarité.
+    <strong>France (Paris)</strong> : Nous faisons des dons (vêtements, livres, jouets,..) 
+    au profit des associations locales venant en aide aux personnes en situation de précarité.
   </li>
 
   <li style="margin-bottom:20px;">
@@ -57,18 +57,18 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-kit-medical" style="color:#E8891A; margin-right:6px;"></i>
-    <strong>Burkina Faso</strong> : envoi de matériel médical destiné aux structures hospitalières,
-     afin de renforcer les capacités de prise en charge des patients.
+    <strong>Burkina Faso</strong> : L'association a organisé l'envoi de matériel médical destiné aux
+  structures hospitalières. Ainsi elle contribue modestement au renforcement des
+  capacités de prise en charge des patients démunis.
   </li>
 
   <li style="margin-bottom:20px;">
     <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-truck-medical" style="color:#E8891A; margin-right:6px;"></i>
-    <strong>Gabon</strong> : notre association a organisé l'expédition de matériel
-    médical pour participer au renforcement des structures de soins locales.
-    Ainsi, par ce soutien direct, nous souhaitons contribuer à l'accès aux
-    traitements des populations vulnérables.
+    <strong>Gabon</strong> :  Notre association a organisé l'expédition de matériel médical pour participer au
+    renforcement des structures de santé locales. Ainsi, par ce soutien direct, nous
+    souhaitons contribuer à l'accès aux soins des populations vulnérables.
   </li>
 
 </ul>
