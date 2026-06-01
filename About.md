@@ -31,7 +31,7 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/fr.png" alt="France"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
-    <strong>France (Paris)</strong> :réalisation d'un donde vêtements au profit
+    <strong>France (Paris)</strong> : réalisation d'un don de vêtements au profit
     d'une association locale venant en aide aux personnes en situation de précarité.
   </li>
 
@@ -39,8 +39,8 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/sn.png" alt="Sénégal"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-seedling" style="color:#2e9e4f; margin-right:6px;"></i>
-    <strong>Sénégal</strong> : notre association s'engage aux côtés des femmes
-    sénégalaises pour valoriser leur savoir-faire unique. Nous soutenons activement
+    <strong>Sénégal</strong> : notre association s'engage aux côtés des femmes sénégalaises
+    pour valoriser leur savoir-faire unique. Nous soutenons activement
     leurs initiatives dans l'agriculture durable et l'artisanat local afin de
     favoriser leur autonomie économique et le développement de leur communauté.
   </li>
@@ -50,7 +50,7 @@ développer l'autonomisation des femmes.
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
     <strong>Ghana</strong> : envoi de matériel médical pour soutenirles établissements
-    de santéconfrontés à un manque d'équipement.
+    de santé confrontés à un manque d'équipement.
   </li>
 
   <li style="margin-bottom:20px;">
