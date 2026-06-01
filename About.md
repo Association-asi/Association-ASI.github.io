@@ -8,7 +8,7 @@ keywords: "mission humanitaire, zones intervention Afrique, association loi 1901
 
 ## <i class="fa-solid fa-people-group"></i> Qui sommes-nous ?
 
-L’Association de Soutien International (ASI) est une organisation à but non lucratif intervenant dans les domaines de la santé, de l’éducation et de **l’accès aux besoins essentiels**,  partout dans le monde où les populations auront besoin de leur soutien.
+**L’Association de Soutien International (ASI)** est une organisation à but non lucratif intervenant dans les domaines de la santé, de l’éducation et de **l’accès aux besoins essentiels**,  partout dans le monde où les populations auront besoin de leur soutien.
 <hr>
 
 ## <i class="fa-solid fa-bullseye"></i> Notre mission
