@@ -49,7 +49,7 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
-    <strong>Ghana</strong> : envoi de matériel médical pour soutenirles établissements
+    <strong>Ghana</strong> : envoi de matériel médical pour soutenir les établissements
     de santé confrontés à un manque d'équipement.
   </li>
 
