@@ -17,50 +17,7 @@ keywords: "actions humanitaires Afrique, photos terrain ONG, matériel médical 
 </h3>
 
 <div class="galerie-grid">
-  <div class="galerie-item galerie-pays">
-    <div class="galerie-img-wrapper">
-      <img src="https://flagcdn.com/w640/bf.png" alt="Burkina Faso">
-      <div class="galerie-overlay"><span><i class="fa-solid fa-kit-medical"></i> Matériel médical</span></div>
-    </div>
-    <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/bf.png" alt="">
-      <strong>Burkina Faso</strong>
-      <span>Matériel médical</span>
-    </div>
-  </div>
-  <div class="galerie-item galerie-pays">
-    <div class="galerie-img-wrapper">
-      <img src="https://flagcdn.com/w640/gh.png" alt="Ghana">
-      <div class="galerie-overlay"><span><i class="fa-solid fa-hospital"></i> Soutien hospitalier</span></div>
-    </div>
-    <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/gh.png" alt="">
-      <strong>Ghana</strong>
-      <span>Soutien hospitalier</span>
-    </div>
-  </div>
-  <div class="galerie-item galerie-pays">
-    <div class="galerie-img-wrapper">
-      <img src="https://flagcdn.com/w640/sn.png" alt="Sénégal">
-      <div class="galerie-overlay"><span><i class="fa-solid fa-venus"></i> Autonomie des femmes</span></div>
-    </div>
-    <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/sn.png" alt="">
-      <strong>Sénégal</strong>
-      <span>Autonomie des femmes</span>
-    </div>
-  </div>
-  <div class="galerie-item galerie-pays">
-    <div class="galerie-img-wrapper">
-      <img src="https://flagcdn.com/w640/ga.png" alt="Gabon">
-      <div class="galerie-overlay"><span><i class="fa-solid fa-kit-medical"></i> Matériel médical</span></div>
-    </div>
-    <div class="galerie-legende">
-      <img src="https://flagcdn.com/24x18/ga.png" alt="">
-      <strong>Gabon</strong>
-      <span>Matériel médical</span>
-    </div>
-  </div>
+
   <div class="galerie-item galerie-pays">
     <div class="galerie-img-wrapper">
       <img src="https://flagcdn.com/w640/fr.png" alt="France">
@@ -72,6 +29,55 @@ keywords: "actions humanitaires Afrique, photos terrain ONG, matériel médical 
       <span>Don de vêtements</span>
     </div>
   </div>
+
+  <div class="galerie-item galerie-pays">
+    <div class="galerie-img-wrapper">
+      <img src="https://flagcdn.com/w640/sn.png" alt="Sénégal">
+      <div class="galerie-overlay"><span><i class="fa-solid fa-venus"></i> Autonomie des femmes</span></div>
+    </div>
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/sn.png" alt="">
+      <strong>Sénégal</strong>
+      <span>Autonomie des femmes</span>
+    </div>
+  </div>
+
+  <div class="galerie-item galerie-pays">
+    <div class="galerie-img-wrapper">
+      <img src="https://flagcdn.com/w640/gh.png" alt="Ghana">
+      <div class="galerie-overlay"><span><i class="fa-solid fa-hospital"></i> Soutien hospitalier</span></div>
+    </div>
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/gh.png" alt="">
+      <strong>Ghana</strong>
+      <span>Soutien hospitalier</span>
+    </div>
+  </div>
+
+  <div class="galerie-item galerie-pays">
+    <div class="galerie-img-wrapper">
+      <img src="https://flagcdn.com/w640/bf.png" alt="Burkina Faso">
+      <div class="galerie-overlay"><span><i class="fa-solid fa-kit-medical"></i> Matériel médical</span></div>
+    </div>
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/bf.png" alt="">
+      <strong>Burkina Faso</strong>
+      <span>Matériel médical</span>
+    </div>
+  </div>
+
+  <div class="galerie-item galerie-pays">
+    <div class="galerie-img-wrapper">
+      <img src="https://flagcdn.com/w640/ga.png" alt="Gabon">
+      <div class="galerie-overlay"><span><i class="fa-solid fa-kit-medical"></i> Matériel médical</span></div>
+    </div>
+    <div class="galerie-legende">
+      <img src="https://flagcdn.com/24x18/ga.png" alt="">
+      <strong>Gabon</strong>
+      <span>Matériel médical</span>
+    </div>
+  </div>
+
 </div>
 
 <h3 style="color:#2e7fb5; border-bottom:3px solid #E8891A; padding-bottom:10px; margin:30px 0 20px 0;">
