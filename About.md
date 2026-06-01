@@ -31,8 +31,8 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/fr.png" alt="France"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
-    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation
-    de précarité.
+    <strong>France (Paris)</strong> :réalisation d'un donde vêtements au profit
+    d'une association locale venant en aide aux personnes en situation de précarité.
   </li>
 
   <li style="margin-bottom:20px;">
@@ -49,14 +49,16 @@ développer l'autonomisation des femmes.
     <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
-    <strong>Ghana</strong> : soutien aux établissements de santé manquant d'équipements.
+    <strong>Ghana</strong> : envoi de matériel médical pour soutenirles établissements
+    de santéconfrontés à un manque d'équipement.
   </li>
 
   <li style="margin-bottom:20px;">
     <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-kit-medical" style="color:#E8891A; margin-right:6px;"></i>
-    <strong>Burkina Faso</strong> : envoi de matériel médical aux structures hospitalières.
+    <strong>Burkina Faso</strong> : envoi de matériel médical destiné aux structures hospitalières,
+     afin de renforcer les capacités de prise en charge des patients.
   </li>
 
   <li style="margin-bottom:20px;">
