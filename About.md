@@ -26,18 +26,13 @@ développer l'autonomisation des femmes.
 ## <i class="fa-solid fa-earth-africa"></i> Nos zones d'intervention
 
 <ul style="list-style:none; padding:0;">
-  <li style="margin-bottom:20px;">
-    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso"
-         style="vertical-align:middle; margin-right:8px;">
-    <i class="fa-solid fa-kit-medical" style="color:#E8891A; margin-right:6px;"></i>
-    <strong>Burkina Faso</strong> : envoi de matériel médical aux structures hospitalières.
-  </li>
 
   <li style="margin-bottom:20px;">
-    <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana"
+    <img src="https://flagcdn.com/24x18/fr.png" alt="France"
          style="vertical-align:middle; margin-right:8px;">
-    <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
-    <strong>Ghana</strong> : soutien aux établissements de santé manquant d'équipements.
+    <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
+    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation
+    de précarité.
   </li>
 
   <li style="margin-bottom:20px;">
@@ -51,6 +46,20 @@ développer l'autonomisation des femmes.
   </li>
 
   <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/gh.png" alt="Ghana"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-hospital" style="color:#4A9FD4; margin-right:6px;"></i>
+    <strong>Ghana</strong> : soutien aux établissements de santé manquant d'équipements.
+  </li>
+
+  <li style="margin-bottom:20px;">
+    <img src="https://flagcdn.com/24x18/bf.png" alt="Burkina Faso"
+         style="vertical-align:middle; margin-right:8px;">
+    <i class="fa-solid fa-kit-medical" style="color:#E8891A; margin-right:6px;"></i>
+    <strong>Burkina Faso</strong> : envoi de matériel médical aux structures hospitalières.
+  </li>
+
+  <li style="margin-bottom:20px;">
     <img src="https://flagcdn.com/24x18/ga.png" alt="Gabon"
          style="vertical-align:middle; margin-right:8px;">
     <i class="fa-solid fa-truck-medical" style="color:#E8891A; margin-right:6px;"></i>
@@ -60,13 +69,6 @@ développer l'autonomisation des femmes.
     traitements des populations vulnérables.
   </li>
 
-  <li style="margin-bottom:20px;">
-    <img src="https://flagcdn.com/24x18/fr.png" alt="France"
-         style="vertical-align:middle; margin-right:8px;">
-    <i class="fa-solid fa-shirt" style="color:#2e7fb5; margin-right:6px;"></i>
-    <strong>France (Paris)</strong> : don de vêtements aux personnes en situation
-    de précarité.
-  </li>
 </ul>
 <hr>
 
